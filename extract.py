@@ -81,7 +81,7 @@ def collect_page(browser, domain):
         # rendered html
         page_data["rendered_html"] = page.content()
 
-        # Toate tagurile <script>.                      # here we could use js to grab the elements from the html, faster but less readalbe for me rn
+        # script tags
         soup = BeautifulSoup(
             page_data["rendered_html"],
             "html.parser"
