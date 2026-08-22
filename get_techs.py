@@ -31,13 +31,20 @@ def contains(v, regex):
 def get_techs(page_data: dict):
     
     url = page_data.get("final_url")
+    response_headers = page_data.get("main_response_headers")
+
+    raw_html = page_data.get("raw_html")
+    rendered_html = page_data.get("remdered_html")
+
+
     if url:
         for app_name, app_spec in data["apps"].items():
                 if "url" in app_spec:
                     if contains(url, app_spec["url"]):
                         print("url",app_name, app_spec)
 
-    response_headers = page_data.get("main_response_headers")
+
+    
     if response_headers:
 
         response_headers = {
@@ -63,11 +70,27 @@ def get_techs(page_data: dict):
                             print("headers",app_name, header_name,response_headers )
 
 
+    #html both raw and 
+    for html in raw_html, rendered_html:
 
-get_techs({"main_response_headers": {
-    "content-type": "text/html; charset=UTF-8",
-    "server": "cloudflare",
-    "x-powered-by": "PHP/8.2",
-    "set-cookie": "PHPSESSID=abc123; Path=/",
-    "cache-control": "no-cache"
-}})
+        if not html:
+            continue
+
+        for key in "html", "script":
+            for app_name, app_spec in data["apps"].items():
+
+                html_snippets = app_spec.get(key, [])
+                if not isinstance(html_snippets, list):
+                    html_snippets = [html_snippets]
+                
+                for detection_pattern in html_snippets:
+                    detection_pattern = detection_pattern.split("\\;", 1)[0]
+                    compiled_regex = re.compile(
+                        detection_pattern,
+                        flags=re.IGNORECASE
+                    )
+                    match = compiled_regex.search(html)
+                    if match:
+                        print("html",app_name)
+
+        
