@@ -2,31 +2,12 @@ import os
 import re
 import json
 
-def decode_bytes(data):
-    """Decode bytes to string, trying multiple common encodings ?????""" 
-    if not isinstance(data, bytes):
-        return data
-    
-    for encoding in ['utf-8', 'iso-8859-1', 'windows-1252', 'latin-1']:
-        try:
-            return data.decode(encoding)
-        except (UnicodeDecodeError, AttributeError):
-            continue
-
-    return data.decode('utf-8', errors='replace')
-
 
 def load_apps(filename="apps.json"):
 
     filename = os.path.join(os.getcwd(), os.path.dirname(__file__), filename)
     return json.load(open(filename))
 
-
-data = load_apps()
-def contains(v, regex):
-    """Removes meta data from regex then checks for a regex match"""
-    v = decode_bytes(v)
-    return re.compile(regex.split("\\;")[0], flags=re.IGNORECASE).search(v)
 
 def get_techs(page_data: dict):
     
@@ -40,8 +21,17 @@ def get_techs(page_data: dict):
     if url:
         for app_name, app_spec in data["apps"].items():
                 if "url" in app_spec:
-                    if contains(url, app_spec["url"]):
-                        print("url",app_name, app_spec)
+
+                    detection_pattern = app_spec["url"].split(r"\;", 1)[0]
+
+                    compiled_regex = re.compile(
+                        detection_pattern,
+                        flags=re.IGNORECASE
+                    )
+
+                    match = compiled_regex.search(url)
+                    if match:
+                        print("url",app_name,url )
 
 
     
@@ -93,4 +83,22 @@ def get_techs(page_data: dict):
                     if match:
                         print("html",app_name)
 
+    # meta tags in same html loop
+        meta_regex = re.compile(
+            "<meta[^>]*?name=['\"]([^>]*?)['\"][^>]*?content=['\"]([^>]*?)['\"][^>]*?>",
+            re.IGNORECASE
+        )
+        metas = dict(meta_regex.findall(html))
         
+        for app_name, app_spec in data["apps"].items():
+            for name, content in app_spec.get("meta", {}).items():
+                if name in metas:
+                                    
+                    detection_pattern = content.split("\\;", 1)[0]
+                    compiled_regex = re.compile(
+                        detection_pattern,
+                        flags=re.IGNORECASE
+                    )
+                    match = compiled_regex.search(metas[name])
+
+                    break
