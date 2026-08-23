@@ -9,15 +9,17 @@ def load_apps(filename="apps.json"):
     return json.load(open(filename))
 
 
+data = load_apps()
+
 def get_techs(page_data: dict):
     
     url = page_data.get("final_url")
     response_headers = page_data.get("main_response_headers")
 
     raw_html = page_data.get("raw_html")
-    rendered_html = page_data.get("remdered_html")
+    rendered_html = page_data.get("rendered_html")
 
-
+    # URL tech detection
     if url:
         for app_name, app_spec in data["apps"].items():
                 if "url" in app_spec:
@@ -34,7 +36,7 @@ def get_techs(page_data: dict):
                         print("url",app_name,url )
 
 
-    
+    # Response Headers tech detection
     if response_headers:
 
         response_headers = {
@@ -60,7 +62,7 @@ def get_techs(page_data: dict):
                             print("headers",app_name, header_name,response_headers )
 
 
-    #html both raw and 
+    #HTML both raw and rendered tech detection 
     for html in raw_html, rendered_html:
 
         if not html:
@@ -83,7 +85,7 @@ def get_techs(page_data: dict):
                     if match:
                         print("html",app_name)
 
-    # meta tags in same html loop
+    # meta tags detection in same html loop
         meta_regex = re.compile(
             "<meta[^>]*?name=['\"]([^>]*?)['\"][^>]*?content=['\"]([^>]*?)['\"][^>]*?>",
             re.IGNORECASE
@@ -100,5 +102,37 @@ def get_techs(page_data: dict):
                         flags=re.IGNORECASE
                     )
                     match = compiled_regex.search(metas[name])
+                    if match:
+                        print("meta",app_name)
+                        break
 
-                    break
+
+    # #requests tech detection 
+    network_requets = page_data.get("network_requests", [])
+
+    for request in network_requets:
+        request_url = request.get("url")
+        resource_type = request.get("resource_type")
+
+        if not request_url:
+            continue
+
+
+        if resource_type == "script":
+              for app_name, app_spec in data["apps"].items():
+                    script_patterns = app_spec.get("script", [])
+
+                    if not isinstance(script_patterns, list):
+                        script_patterns = [script_patterns]
+
+                    for detection_pattern in script_patterns:
+                        detection_pattern = detection_pattern.split(r"\;",1)[0]
+
+                        compiled_regex = re.compile(detection_pattern ,flags=re.IGNORECASE)
+
+                        match = compiled_regex.search(request_url)
+
+                        if match:
+                            print("network_script", app_name, request_url)
+                            break
+                    
