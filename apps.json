@@ -300,7 +300,10 @@
 			"headers": {
 				"X-Akamai-Transformed": ""
 			},
-			"website": "akamai.com"
+			"website": "akamai.com",
+			"script": [
+				"/akam/\\d+/|akamaihd\\.net/"
+			]
 		},
 		"Algolia Realtime Search": {
 			"cats": [
@@ -1672,7 +1675,10 @@
 			"meta": {
 				"generator": "Drupal(?:\\s([\\d.]+))?\\;version:\\1"
 			},
-			"script": "drupal\\.js",
+			"script": [
+				"drupal\\.js",
+				"/core/assets/vendor/|/sites/(?:default|g/files)/files/js/"
+			],
 			"website": "drupal.org"
 		},
 		"Drupal Commerce": {
@@ -2040,7 +2046,10 @@
 				17
 			],
 			"html": "<link[^>]* href=[^>]+font-awesome(?:\\.min)?\\.css",
-			"website": "fontawesome.io"
+			"website": "fontawesome.io",
+			"script": [
+				"kit\\.fontawesome\\.com/|/font-awesome/(?:js/|\\d)"
+			]
 		},
 		"Fortune3": {
 			"cats": [
@@ -2268,7 +2277,10 @@
 			"headers": {
 				"Set-Cookie": "__utma"
 			},
-			"script": "^https?://[^\\/]+\\.google-analytics\\.com\\/(?:ga|urchin|(analytics))\\.js\\;version:\\1?UA:",
+			"script": [
+				"^https?://[^\\/]+\\.google-analytics\\.com\\/(?:ga|urchin|(analytics))\\.js\\;version:\\1?UA:",
+				"googletagmanager\\.com/gtag/js\\?id=(?:G-|UA-)|google-analytics\\.com/(?:urchin|analytics|ga)\\.js"
+			],
 			"website": "google.com/analytics"
 		},
 		"Google App Engine": {
@@ -2309,7 +2321,8 @@
 			],
 			"script": [
 				"(?:maps\\.google\\.com/maps\\?file=api(?:&v=([\\d.]+))?|maps\\.google\\.com/maps/api/staticmap)\\;version:API v\\1",
-				"//maps.googleapis.com/maps/api/js"
+				"//maps.googleapis.com/maps/api/js",
+				"maps\\.(?:googleapis|google)\\.com/"
 			],
 			"website": "maps.google.com"
 		},
@@ -2531,7 +2544,10 @@
 			],
 			"env": "^Handlebars$",
 			"html": "<[^>]*type=[^>]text\\/x-handlebars-template",
-			"script": "handlebars(?:\\.runtime)?(?:-v([\\d.]+?))?(?:\\.min)?\\.js\\;version:\\1",
+			"script": [
+				"handlebars(?:\\.runtime)?(?:-v([\\d.]+?))?(?:\\.min)?\\.js\\;version:\\1",
+				"handlebars(?:\\.js|[-@/])"
+			],
 			"website": "handlebarsjs.com"
 		},
 		"Happy ICS Server": {
@@ -2637,7 +2653,10 @@
 			],
 			"env": "^(?:_hsq|hubspot)$",
 			"html": "<!-- Start of Async HubSpot",
-			"website": "hubspot.com"
+			"website": "hubspot.com",
+			"script": [
+				"hs-scripts\\.com/|/hs/scriptloader/|/hs/hsstatic/"
+			]
 		},
 		"Hybris": {
 			"cats": [
@@ -3422,7 +3441,10 @@
 			"cats": [
 				12
 			],
-			"script": "lodash.*\\.js",
+			"script": [
+				"lodash.*\\.js",
+				"lodash(?:@|[-.]|/)"
+			],
 			"website": "www.lodash.com"
 		},
 		"Lockerz Share": {
@@ -3544,7 +3566,8 @@
 			"implies": "PHP",
 			"script": [
 				"js/mage",
-				"skin/frontend/(?:default|(enterprise))\\;version:\\1?Enterprise:Community"
+				"skin/frontend/(?:default|(enterprise))\\;version:\\1?Enterprise:Community",
+				"/static/version\\d+/frontend/.+/(?:Magento_|requirejs/require\\.js)"
 			],
 			"website": "www.magentocommerce.com"
 		},
@@ -3626,7 +3649,10 @@
 				14
 			],
 			"env": "^mejs$",
-			"website": "mediaelementjs.com"
+			"website": "mediaelementjs.com",
+			"script": [
+				"mediaelement-and-player"
+			]
 		},
 		"MediaTomb": {
 			"cats": [
@@ -3778,7 +3804,10 @@
 				12
 			],
 			"env": "^Modernizr$",
-			"script": "modernizr(?:-([\\d.]*[\\d]))?.*\\.js\\;version:\\1",
+			"script": [
+				"modernizr(?:-([\\d.]*[\\d]))?.*\\.js\\;version:\\1",
+				"modernizr(?:\\.custom)?(?:\\.min)?\\.js"
+			],
 			"website": "www.modernizr.com"
 		},
 		"Moguta.CMS": {
@@ -3830,7 +3859,10 @@
 				12
 			],
 			"env": "^moment$",
-			"script": "moment(?:\\.min)?\\.js",
+			"script": [
+				"moment(?:\\.min)?\\.js",
+				"moment(?:-js-vendor|\\.min|\\.js)"
+			],
 			"website": "momentjs.com"
 		},
 		"Mondo Media": {
@@ -4085,7 +4117,10 @@
 			],
 			"html": "<link [^>]*href=\"[^\"]+owl.carousel(?:\\.min)?\\.css",
 			"implies": "jQuery",
-			"script": "owl.carousel.*\\.js",
+			"script": [
+				"owl.carousel.*\\.js",
+				"OwlCarousel|owl\\.carousel"
+			],
 			"website": "owlgraphic.com/owlcarousel"
 		},
 		"OXID eShop": {
@@ -4477,7 +4512,10 @@
 			],
 			"env": "^PAYPAL$",
 			"html": "<input[^>]+_s-xclick",
-			"script": "paypalobjects\\.com/js",
+			"script": [
+				"paypalobjects\\.com/js",
+				"paypal\\.com/"
+			],
 			"website": "paypal.com"
 		},
 		"PencilBlue": {
@@ -4867,7 +4905,8 @@
 			"script": [
 				"react(?:\\-with\\-addons)?(?:\\-|\\.)([\\d.]*\\d)[^/]*\\.js\\;version:\\1",
 				"/([\\d.]+)/react(\\.min)?\\.js\\;version:\\1",
-				"react.*\\.js"
+				"react.*\\.js",
+				"/(?:react|react-dom)(?:@|[-./])(?:\\d|production|min)|/vendor/react(?:-dom)?\\.min\\.js"
 			],
 			"website": "facebook.github.io/react"
 		},
@@ -4914,7 +4953,10 @@
 				12
 			],
 			"env": "^requirejs$",
-			"script": "require.*\\.js",
+			"script": [
+				"require.*\\.js",
+				"requirejs/require\\.js"
+			],
 			"website": "requirejs.org"
 		},
 		"Resin": {
@@ -5193,7 +5235,10 @@
 				12
 			],
 			"implies": "jQuery",
-			"script": "select2.*\\.js",
+			"script": [
+				"select2.*\\.js",
+				"select2(?:\\.full)?(?:\\.min)?\\.js|select2@"
+			],
 			"website": "select2.github.io"
 		},
 		"Semantic-ui": {
@@ -5274,7 +5319,10 @@
 				5
 			],
 			"env": "^SHARETHIS$",
-			"script": "w\\.sharethis\\.com/",
+			"script": [
+				"w\\.sharethis\\.com/",
+				"platform-api\\.sharethis\\.com/"
+			],
 			"website": "sharethis.com"
 		},
 		"ShinyStat": {
@@ -5315,7 +5363,10 @@
 			],
 			"env": "^Shopify$",
 			"html": "<link[^>]+=['\"]//cdn\\.shopify\\.com",
-			"website": "shopify.com"
+			"website": "shopify.com",
+			"script": [
+				"cdn\\.shopify\\.com|/cdn/shop(?:ifycloud|/t/)|shop\\.app/checkouts"
+			]
 		},
 		"Shopware": {
 			"cats": [
@@ -5577,7 +5628,10 @@
 			"headers": {
 				"X-ServedBy": "squarespace"
 			},
-			"website": "www.squarespace.com"
+			"website": "www.squarespace.com",
+			"script": [
+				"(?:assets|static1)\\.squarespace\\.com|sqspcdn\\.com"
+			]
 		},
 		"SquirrelMail": {
 			"cats": [
@@ -5937,7 +5991,10 @@
 				10
 			],
 			"env": "^TrackJs$",
-			"script": "tracker.js",
+			"script": [
+				"tracker.js",
+				"cdn\\.trackjs\\.com/"
+			],
 			"website": "trackjs.com"
 		},
 		"Tumblr": {
@@ -5997,7 +6054,10 @@
 				"<link[^>]+?href=\"[^\"]+bootstrap(?:\\.min)?\\.css",
 				"<div [^>]*class=\"[^\"]*col-(?:xs|sm|md|lg)-\\d{1,2}"
 			],
-			"script": "(?:twitter\\.github\\.com/bootstrap|bootstrap(?:\\.js|\\.min\\.js))",
+			"script": [
+				"(?:twitter\\.github\\.com/bootstrap|bootstrap(?:\\.js|\\.min\\.js))",
+				"(?:^|[/.-])bootstrap(?:\\.bundle|\\.min|[-.]\\d|/js/|\\.tooltip|\\.scrollspy|\\.transition|-datepicker)"
+			],
 			"website": "getbootstrap.com"
 		},
 		"Twitter Emoji (Twemoji)": {
@@ -6047,7 +6107,10 @@
 			"cats": [
 				18
 			],
-			"script": "uikit.*\\.js",
+			"script": [
+				"uikit.*\\.js",
+				"uikit(?:-|\\.)3|uikit\\.min\\.js"
+			],
 			"website": "getuikit.com"
 		},
 		"UNIX": {
@@ -6117,7 +6180,10 @@
 			"cats": [
 				12
 			],
-			"script": "underscore.*\\.js",
+			"script": [
+				"underscore.*\\.js",
+				"underscore-\\d"
+			],
 			"website": "documentcloud.github.com/underscore"
 		},
 		"UserRules": {
@@ -6308,7 +6374,8 @@
 			"script": [
 				"vue(?:\\-|\\.)([\\d.]*\\d)[^/]*\\.js\\;version:\\1",
 				"/([\\d.]+)/vue(\\.min)?\\.js\\;version:\\1",
-				"vue.*\\.js"
+				"vue.*\\.js",
+				"/vue(?:[-.]modules|(?:\\.runtime)?(?:\\.global)?(?:\\.prod)?(?:\\.min)?\\.js)"
 			],
 			"website": "vuejs.org"
 		},
@@ -6462,7 +6529,10 @@
 			"cats": [
 				1
 			],
-			"script": "cdn\\d+\\.editmysite\\.com",
+			"script": [
+				"cdn\\d+\\.editmysite\\.com",
+				"cdn\\d*\\.editmysite\\.com"
+			],
 			"website": "www.weebly.com"
 		},
 		"Wikispaces": {
@@ -6531,7 +6601,10 @@
 				"Set-Cookie": "Domain=\\.wix\\.com",
 				"X-Wix-Dispatcher-Cache-Hit": ""
 			},
-			"script": "static\\.wixstatic\\.com",
+			"script": [
+				"static\\.wixstatic\\.com",
+				"static\\.parastorage\\.com/(?:services|unpkg)|wix-thunderbolt"
+			],
 			"website": "wix.com"
 		},
 		"Wolf CMS": {
@@ -6554,7 +6627,10 @@
 			"meta": {
 				"generator": "WooCommerce ([\\d.]+)\\;version:\\1"
 			},
-			"script": "woocommerce",
+			"script": [
+				"woocommerce",
+				"/(?:wp-content|app)/plugins/woocommerce/"
+			],
 			"website": "www.woothemes.com/woocommerce"
 		},
 		"Woopra": {
@@ -6578,7 +6654,10 @@
 			"meta": {
 				"generator": "WordPress( [\\d.]+)?\\;version:\\1"
 			},
-			"script": "/wp-includes/",
+			"script": [
+				"/wp-includes/",
+				"/wp-(?:content|includes)/|/app/(?:plugins|themes)/"
+			],
 			"website": "wordpress.org"
 		},
 		"WordPress Super Cache": {
@@ -7134,7 +7213,8 @@
 			"script": [
 				"jquery(?:\\-|\\.)([\\d.]*\\d)[^/]*\\.js\\;version:\\1",
 				"/([\\d.]+)/jquery(\\.min)?\\.js\\;version:\\1",
-				"jquery.*\\.js"
+				"jquery.*\\.js",
+				"(?:^|[/.-])jquery(?:[-.]\\d+(?:\\.\\d+){1,2})?(?:\\.min)?\\.js(?:[?#]|$)"
 			],
 			"website": "jquery.com"
 		},
@@ -7162,7 +7242,8 @@
 			"script": [
 				"jquery-ui(?:-|\\.)([\\d.]*\\d)[^/]*\\.js\\;version:\\1",
 				"([\\d.]+)/jquery-ui(\\.min)?\\.js\\;version:\\1",
-				"jquery-ui.*\\.js"
+				"jquery-ui.*\\.js",
+				"jquery(?:/|-)ui(?:/|[-.])|jquery-ui"
 			],
 			"website": "jqueryui.com"
 		},
@@ -7496,7 +7577,10 @@
 			],
 			"env": "^Recaptcha$",
 			"html": "(?:<div[^>]+id=\"recaptcha_image|<link[^>]+recaptcha|document\\.getElementById\\('recaptcha')",
-			"script": "(?:api-secure\\.recaptcha\\.net|recaptcha_ajax\\.js)",
+			"script": [
+				"(?:api-secure\\.recaptcha\\.net|recaptcha_ajax\\.js)",
+				"google\\.com/recaptcha/"
+			],
 			"website": "recaptcha.net"
 		},
 		"sIFR": {
@@ -7634,7 +7718,10 @@
 			"html": "<link[^>]* href=\"(.*).webflow.com(.*)\"",
 			"meta": {
 				"generator": "Webflow"
-			}
+			},
+			"script": [
+				"cdn\\.prod\\.website-files\\.com|d3e54v103j8qbb\\.cloudfront\\.net"
+			]
 		},
 		"webpack": {
 			"cats": [
@@ -7683,6 +7770,474 @@
 				"yepnope.*\\.js"
 			],
 			"website": "yepnopejs.com"
+		},
+		"GoDaddy Website Builder": {
+			"cats": [
+				51
+			],
+			"script": "img1\\.wsimg\\.com/(?:blobby/go|ceph-.*/website-builder)"
+		},
+		"IONOS MyWebsite": {
+			"cats": [
+				51
+			],
+			"script": "initial-website\\.com|website-editor\\.net|mywebsite-editor\\.com"
+		},
+		"Salesforce Commerce Cloud": {
+			"cats": [
+				6
+			],
+			"script": "/on/demandware\\.static/|/internal/jscript/dwa(?:nalytics|c)-"
+		},
+		"HubSpot CMS": {
+			"cats": [
+				1
+			],
+			"script": "/hubfs/hub_generated/|/_hcms/|/hs/hsstatic/"
+		},
+		"Next.js": {
+			"cats": [
+				18
+			],
+			"script": "/_next/static/"
+		},
+		"Nuxt": {
+			"cats": [
+				18
+			],
+			"script": "/_nuxt/"
+		},
+		"AMP": {
+			"cats": [
+				18
+			],
+			"script": "cdn\\.ampproject\\.org/v0"
+		},
+		"Google Ads": {
+			"cats": [
+				36
+			],
+			"script": "googletagmanager\\.com/gtag/js\\?id=AW-"
+		},
+		"Adobe Experience Platform Launch": {
+			"cats": [
+				42
+			],
+			"script": "assets\\.adobedtm\\.com/.*/?launch-|assets\\.adobedtm\\.com/launch-"
+		},
+		"Salesforce Interaction Studio / Evergage": {
+			"cats": [
+				32
+			],
+			"script": "cdn\\.evgnet\\.com/.*/evergage"
+		},
+		"Salesforce Commerce Cloud Einstein": {
+			"cats": [
+				32
+			],
+			"script": "cdn\\.cquotient\\.com/"
+		},
+		"Sentry": {
+			"cats": [
+				47
+			],
+			"script": "browser\\.sentry-cdn\\.com/"
+		},
+		"Hotjar": {
+			"cats": [
+				10
+			],
+			"script": "(?:script|static)\\.hotjar\\.com/"
+		},
+		"Humblytics": {
+			"cats": [
+				10
+			],
+			"script": "app\\.humblytics\\.com/"
+		},
+		"etracker": {
+			"cats": [
+				10
+			],
+			"script": "code\\.etracker\\.com/"
+		},
+		"ProfitMetrics": {
+			"cats": [
+				10
+			],
+			"script": "cdn1\\.profitmetrics\\.io/"
+		},
+		"OneTrust": {
+			"cats": [
+				5
+			],
+			"script": "(?:cdn\\.cookielaw\\.org|onetrust\\.com)/"
+		},
+		"Cookiebot": {
+			"cats": [
+				5
+			],
+			"script": "consent\\.cookiebot\\.com/"
+		},
+		"CookieYes": {
+			"cats": [
+				5
+			],
+			"script": "cdn-cookieyes\\.com/"
+		},
+		"Usercentrics": {
+			"cats": [
+				5
+			],
+			"script": "(?:app|sdp)\\.eu\\.usercentrics\\.eu/"
+		},
+		"ComplyAuto": {
+			"cats": [
+				5
+			],
+			"script": "cdn\\.complyauto\\.com/"
+		},
+		"Cloudflare Turnstile": {
+			"cats": [
+				16
+			],
+			"script": "challenges\\.cloudflare\\.com/turnstile/"
+		},
+		"Cloudflare Web Analytics": {
+			"cats": [
+				10
+			],
+			"script": "static\\.cloudflareinsights\\.com/beacon"
+		},
+		"Cloudflare Email Protection": {
+			"cats": [
+				16
+			],
+			"script": "/cdn-cgi/scripts/.*/email-decode"
+		},
+		"Amazon CloudFront": {
+			"cats": [
+				31
+			],
+			"script": "\\.cloudfront\\.net/"
+		},
+		"cdnjs": {
+			"cats": [
+				31
+			],
+			"script": "cdnjs\\.cloudflare\\.com/"
+		},
+		"jsDelivr": {
+			"cats": [
+				31
+			],
+			"script": "cdn\\.jsdelivr\\.net/"
+		},
+		"UNPKG": {
+			"cats": [
+				31
+			],
+			"script": "(?:^|//)unpkg\\.com/"
+		},
+		"Trustpilot": {
+			"cats": [
+				5
+			],
+			"script": "widget\\.trustpilot\\.com/"
+		},
+		"UserWay": {
+			"cats": [
+				5
+			],
+			"script": "cdn\\.userway\\.org/"
+		},
+		"Elfsight": {
+			"cats": [
+				5
+			],
+			"script": "(?:apps\\.elfsight\\.com|elfsightcdn\\.com)/"
+		},
+		"Zoho SalesIQ": {
+			"cats": [
+				5
+			],
+			"script": "salesiq\\.zohopublic\\.com/"
+		},
+		"Constant Contact": {
+			"cats": [
+				32
+			],
+			"script": "static\\.ctctcdn\\.com/"
+		},
+		"Klevu": {
+			"cats": [
+				29
+			],
+			"script": "js\\.klevu\\.com/|/Klevu_Search/"
+		},
+		"Monetate": {
+			"cats": [
+				32
+			],
+			"script": "monetate\\.net/|eliteMonetate"
+		},
+		"Branch": {
+			"cats": [
+				32
+			],
+			"script": "cdn\\.branch\\.io/"
+		},
+		"Zotabox": {
+			"cats": [
+				32
+			],
+			"script": "static2\\.zotabox\\.com/"
+		},
+		"Qualtrics": {
+			"cats": [
+				10
+			],
+			"script": "\\.xm-cdn\\.com/"
+		},
+		"TrustedSite": {
+			"cats": [
+				16
+			],
+			"script": "cdn\\.trustedsite\\.com/"
+		},
+		"PrintFriendly": {
+			"cats": [
+				5
+			],
+			"script": "cdn\\.printfriendly\\.com/"
+		},
+		"Google AdSense / Ad Manager": {
+			"cats": [
+				36
+			],
+			"script": "googlesyndication\\.com/|securepubads\\.g\\.doubleclick\\.net/"
+		},
+		"Facebook SDK": {
+			"cats": [
+				5
+			],
+			"script": "connect\\.facebook\\.net/.*/sdk\\.js"
+		},
+		"Adobe Fonts": {
+			"cats": [
+				17
+			],
+			"script": "use\\.typekit\\.net/"
+		},
+		"jQuery Migrate": {
+			"cats": [
+				12
+			],
+			"script": "jquery-migrate(?:\\.min)?\\.js"
+		},
+		"jQuery Validation": {
+			"cats": [
+				12
+			],
+			"script": "jquery\\.validate(?:\\.min)?\\.js"
+		},
+		"Redux": {
+			"cats": [
+				12
+			],
+			"script": "/(?:react-redux|redux(?:-thunk)?|reduxjs/toolkit)/"
+		},
+		"React Bootstrap": {
+			"cats": [
+				18
+			],
+			"script": "react-bootstrap/"
+		},
+		"Swiper": {
+			"cats": [
+				12
+			],
+			"script": "(?:^|[/@.-])swiper(?:-bundle|\\.min|@\\d)"
+		},
+		"Slick Carousel": {
+			"cats": [
+				12
+			],
+			"script": "slick(?:-carousel|\\.min|\\.js|/slick)"
+		},
+		"GSAP": {
+			"cats": [
+				12
+			],
+			"script": "(?:^|/)gsap(?:@|/|\\.min)|ScrollTrigger\\.min\\.js"
+		},
+		"core-js": {
+			"cats": [
+				12
+			],
+			"script": "core-js(?:-bundle|/|@)"
+		},
+		"SuperAgent": {
+			"cats": [
+				12
+			],
+			"script": "superagent/|superagent\\.min\\.js"
+		},
+		"WOW.js": {
+			"cats": [
+				12
+			],
+			"script": "/wow(?:/|[-.]\\d|\\.min|\\.js)"
+		},
+		"Ion.RangeSlider": {
+			"cats": [
+				12
+			],
+			"script": "ion-rangeslider|ion\\.rangeSlider"
+		},
+		"Waypoints": {
+			"cats": [
+				12
+			],
+			"script": "/waypoints/|waypoints\\.min\\.js"
+		},
+		"Typesense": {
+			"cats": [
+				29
+			],
+			"script": "typesense@|typesense\\.min\\.js"
+		},
+		"Algolia Autocomplete": {
+			"cats": [
+				29
+			],
+			"script": "@algolia/autocomplete"
+		},
+		"Fancybox": {
+			"cats": [
+				7
+			],
+			"script": "fancyapps/fancybox|jquery\\.fancybox"
+		},
+		"iziToast": {
+			"cats": [
+				5
+			],
+			"script": "izitoast"
+		},
+		"Lucide": {
+			"cats": [
+				17
+			],
+			"script": "/lucide/|lucide-icons"
+		},
+		"Flickity": {
+			"cats": [
+				12
+			],
+			"script": "flickity(?:\\.pkgd)?(?:\\.min)?\\.js"
+		},
+		"Masonry": {
+			"cats": [
+				12
+			],
+			"script": "masonry\\.pkgd"
+		},
+		"imagesLoaded": {
+			"cats": [
+				12
+			],
+			"script": "imagesloaded\\.pkgd"
+		},
+		"Glide.js": {
+			"cats": [
+				12
+			],
+			"script": "Glide\\.js/|glide\\.js"
+		},
+		"Knockout": {
+			"cats": [
+				12
+			],
+			"script": "knockout-\\d"
+		},
+		"Turbolinks": {
+			"cats": [
+				12
+			],
+			"script": "turbolinks-\\d"
+		},
+		"FlexSlider": {
+			"cats": [
+				12
+			],
+			"script": "flexslider(?:\\.min|-custom)?\\.js"
+		},
+		"Isotope": {
+			"cats": [
+				12
+			],
+			"script": "isotope\\.pkgd"
+		},
+		"Punycode.js": {
+			"cats": [
+				12
+			],
+			"script": "punycode\\.min\\.js"
+		},
+		"Mailcheck": {
+			"cats": [
+				12
+			],
+			"script": "mailcheck\\.min\\.js"
+		},
+		"Magnific Popup": {
+			"cats": [
+				7
+			],
+			"script": "magnific-popup\\.js"
+		},
+		"LaunchDarkly": {
+			"cats": [
+				47
+			],
+			"script": "launch-darkly/.*/ldclient"
+		},
+		"PropTypes": {
+			"cats": [
+				12
+			],
+			"script": "prop-types/"
+		},
+		"Redux Toolkit": {
+			"cats": [
+				12
+			],
+			"script": "reduxjs/toolkit/"
+		},
+		"HTML React Parser": {
+			"cats": [
+				12
+			],
+			"script": "html-react-parser/"
+		},
+		"Jssor Slider": {
+			"cats": [
+				12
+			],
+			"script": "jssor(?:\\.slider)?\\.js"
+		},
+		"Iconify": {
+			"cats": [
+				17
+			],
+			"script": "iconify-icon@|iconify-icon\\.min\\.js"
+		},
+		"Vanilla LazyLoad": {
+			"cats": [
+				23
+			],
+			"script": "vanilla-lazyload@"
 		}
 	},
 	"categories": {

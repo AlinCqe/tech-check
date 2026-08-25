@@ -10,9 +10,15 @@ def load_apps(filename="apps.json"):
 
 
 data = load_apps()
+total_techs = {}
 
-def get_techs(page_data: dict):
-    
+def get_techs(page_data: dict) -> dict :  
+   
+    page_result = {
+        "link": page_data.get("input_domain"),
+        "technologies": {}
+    }
+
     url = page_data.get("final_url")
     response_headers = page_data.get("main_response_headers")
 
@@ -33,8 +39,14 @@ def get_techs(page_data: dict):
 
                     match = compiled_regex.search(url)
                     if match:
-                        print("url",app_name,url )
-
+                        
+                        if app_name not in page_result["technologies"]:          #only adds proof if the tech isnt alredy saved
+                            page_result["technologies"][app_name] = {
+                                "proof": {
+                                    "source": "initial url",
+                                    "matched": url,
+                                }
+                            }
 
     # Response Headers tech detection
     if response_headers:
@@ -59,8 +71,14 @@ def get_techs(page_data: dict):
 
                         match = compiled_regex.search(response_header_value)
                         if match:
-                            print("headers",app_name, header_name,response_headers )
-
+                            
+                            if app_name not in page_result["technologies"]:          #only adds proof if the tech isnt alredy saved
+                                page_result["technologies"][app_name] = {
+                                    "proof": {
+                                        "source": "response_headers",
+                                        "matched": response_header_value,
+                                    }
+                                }
 
     #HTML both raw and rendered tech detection 
     for html in raw_html, rendered_html:
@@ -81,10 +99,17 @@ def get_techs(page_data: dict):
                         detection_pattern,
                         flags=re.IGNORECASE
                     )
+
                     match = compiled_regex.search(html)
                     if match:
-                        print("html",app_name)
-
+                        
+                        if app_name not in page_result["technologies"]:          #only adds proof if the tech isnt alredy saved
+                            page_result["technologies"][app_name] = {
+                                "proof": {
+                                    "source": "html",
+                                    "matched": match.group(0),
+                                }
+                            }
     # meta tags detection in same html loop
         meta_regex = re.compile(
             "<meta[^>]*?name=['\"]([^>]*?)['\"][^>]*?content=['\"]([^>]*?)['\"][^>]*?>",
@@ -103,7 +128,14 @@ def get_techs(page_data: dict):
                     )
                     match = compiled_regex.search(metas[name])
                     if match:
-                        print("meta",app_name)
+                        
+                        if app_name not in page_result["technologies"]:          #only adds proof if the tech isnt alredy saved
+                            page_result["technologies"][app_name] = {
+                                "proof": {
+                                    "source": "meta tags",
+                                    "matched": match.group(0),
+                                }
+                            }
                         break
 
 
@@ -133,6 +165,14 @@ def get_techs(page_data: dict):
                         match = compiled_regex.search(request_url)
 
                         if match:
-                            print("network_script", app_name, request_url)
+                            
+                            if app_name not in page_result["technologies"]:         #only adds proof if the tehc isnt alredy saved
+                                page_result["technologies"][app_name] = {
+                                    "proof": {
+                                        "source": "network_script",
+                                        "url": request_url,
+                                    }
+                                }  
                             break
                     
+    return page_result
