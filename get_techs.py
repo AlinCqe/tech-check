@@ -8,6 +8,20 @@ def load_apps(filename="apps.json"):
     filename = os.path.join(os.getcwd(), os.path.dirname(__file__), filename)
     return json.load(open(filename))
 
+
+def sanitize_url(url):
+    parsed_url = urlsplit(url)
+
+    sanitized_url = urlunsplit(( 
+        parsed_url.scheme,
+        parsed_url.netloc,
+        parsed_url.path,
+        "",
+        ""
+    ))
+    return sanitized_url
+
+
 def extract_wordpress_component(resource_url, component_type):
     path = urlparse(resource_url).path
     parts = [part for part in path.split("/") if part]
@@ -59,11 +73,11 @@ def get_techs(page_data: dict) -> dict :
                     match = compiled_regex.search(url)
                     if match:
                         
-                        if app_name not in page_result["technologies"]:          #only adds proof if the tech isnt alredy saved
-                            page_result["technologies"][app_name] = {
+                        if app_name not in page_result["technologies"]:     #only adds proof if the tech isnt alredy saved                                
+                            page_result["technologies"][app_name] = {       
                                 "proof": {
                                     "source": "initial url",
-                                    "matched": url,
+                                    "matched": sanitize_url(url),
                                 }
                             }
 
@@ -90,15 +104,23 @@ def get_techs(page_data: dict) -> dict :
 
                         match = compiled_regex.search(response_header_value)
                         if match:
-                            
-                            if app_name not in page_result["technologies"]:          #only adds proof if the tech isnt alredy saved
+                            matched_value = match.group(0)[:300]
+
+                            #for cookies, preserve only the cookie name
+                            if header_name.lower() == "set-cookie":
+                                cookie_name = matched_value.split("=", 1)[0]
+                                cookie_name = cookie_name.strip()
+
+                                matched_value = f"{cookie_name}=[REDACTED]"
+
+                            if app_name not in page_result["technologies"]:
                                 page_result["technologies"][app_name] = {
                                     "proof": {
                                         "source": "response_headers",
-                                        "matched": response_header_value,
+                                        "header": header_name,
+                                        "matched": matched_value
                                     }
                                 }
-
     #HTML both raw and rendered tech detection 
     for html in raw_html, rendered_html:
 
@@ -187,7 +209,7 @@ def get_techs(page_data: dict) -> dict :
                                 page_result["technologies"][app_name] = {
                                     "proof": {
                                         "source": "network_script",
-                                        "url": request_url,
+                                        "url": sanitize_url(request_url)
                                     }
                                 }  
                             break
@@ -222,7 +244,6 @@ def get_techs(page_data: dict) -> dict :
                 "url": request_url,
                 "source": "network request"
             })
-            
     # checks for wdpress plugins or themes 
         
     for resource in resource_urls:

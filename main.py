@@ -15,7 +15,10 @@ def load_domains():
 
 
 domains = [domain["root_domain"] for domain in load_domains()]
-
+domains = ["verticalcommunitychurch.com",
+"gitesducharmois.fr",
+"allegrocreditbeta.com",
+"hoffmaninstitute.co.uk"]
 all_results = []
 
 with sync_playwright() as playwright:
