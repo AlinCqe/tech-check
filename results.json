@@ -1,23 +1,23 @@
 {
   "summary": {
     "websites": 200,
-    "total_detections": 1561,
-    "unique_technologies": 369
+    "total_detections": 1555,
+    "unique_technologies": 354
   },
   "results": [
     {
       "link": "jcmobilecigars.com",
       "technologies": {
-        "Moment.js": {
+        "Twitter Bootstrap": {
           "proof": {
             "source": "html",
-            "matched": "moment-js-vendor"
+            "matched": "bootstrap.min.js"
           }
         },
-        "Squarespace": {
+        "Trustpilot": {
           "proof": {
             "source": "html",
-            "matched": "assets.squarespace.com"
+            "matched": "widget.trustpilot.com/"
           }
         }
       }
@@ -28,6 +28,7 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         },
@@ -91,19 +92,19 @@
             "matched": "mailcheck.min.js"
           }
         },
-        "WordPress Theme: astra": {
+        "Astra": {
           "proof": {
             "source": "script tag",
             "url": "https://somalidisablesupport.com/wp-content/themes/astra/assets/js/minified/frontend.min.js"
           }
         },
-        "WordPress Plugin: elementor": {
+        "Elementor": {
           "proof": {
             "source": "script tag",
             "url": "https://somalidisablesupport.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js"
           }
         },
-        "WordPress Plugin: wpforms-lite": {
+        "WPForms": {
           "proof": {
             "source": "script tag",
             "url": "https://somalidisablesupport.com/wp-content/plugins/wpforms-lite/assets/lib/jquery.validate.min.js"
@@ -117,6 +118,7 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         },
@@ -134,6 +136,7 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         },
@@ -167,7 +170,7 @@
             "matched": "connect.facebook.net/hu_HU/sdk.js"
           }
         },
-        "WordPress Theme: szentkristof1": {
+        "Szentkristof1": {
           "proof": {
             "source": "script tag",
             "url": "https://szentkristofudvarhaz.hu/wp-content/themes/szentkristof1/jquery.js"
@@ -185,6 +188,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         }
@@ -255,6 +259,7 @@
         "Nginx": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "nginx/1.29.1"
           }
         },
@@ -288,13 +293,13 @@
             "matched": "jquery/jquery.js"
           }
         },
-        "WordPress Plugin: elementor-pro": {
+        "Elementor Pro": {
           "proof": {
             "source": "script tag",
             "url": "https://xn--kleoghvidevareservice-qfc.dk/wp-content/plugins/elementor-pro/assets/js/frontend.min.js"
           }
         },
-        "WordPress Plugin: elementor": {
+        "Elementor": {
           "proof": {
             "source": "script tag",
             "url": "https://xn--kleoghvidevareservice-qfc.dk/wp-content/plugins/elementor/assets/js/frontend.min.js"
@@ -312,6 +317,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -333,31 +339,31 @@
             "matched": "googletagmanager.com/gtag/js?id=G-"
           }
         },
-        "WordPress Theme: kadence": {
+        "Kadence": {
           "proof": {
             "source": "script tag",
             "url": "https://231selfstorage.com/wp-content/themes/kadence/assets/js/navigation.min.js"
           }
         },
-        "WordPress Plugin: kadence-blocks-pro": {
+        "Kadence Blocks Pro": {
           "proof": {
             "source": "script tag",
             "url": "https://231selfstorage.com/wp-content/plugins/kadence-blocks-pro/includes/assets/js/aos.min.js"
           }
         },
-        "WordPress Plugin: rocket-lazy-load": {
+        "LazyLoad": {
           "proof": {
             "source": "script tag",
             "url": "https://231selfstorage.com/wp-content/plugins/rocket-lazy-load/assets/js/16.1/lazyload.min.js"
           }
         },
-        "WordPress Plugin: kadence-pro": {
+        "Kadence Pro": {
           "proof": {
             "source": "link tag",
             "url": "https://231selfstorage.com/wp-content/plugins/kadence-pro/dist/mega-menu/menu-addon.css"
           }
         },
-        "WordPress Plugin: kadence-blocks": {
+        "Kadence Blocks": {
           "proof": {
             "source": "link tag",
             "url": "https://231selfstorage.com/wp-content/plugins/kadence-blocks/dist/style-blocks-rowlayout.css"
@@ -371,6 +377,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         }
@@ -457,43 +464,43 @@
             "matched": "<link rel=\"stylesheet\" id=\"prettyphoto-css\" href=\"https://www.cytofastmed.com/wp-content/themes/Vela/css/prettyPhoto.min.css"
           }
         },
-        "WordPress Plugin: burst-statistics": {
+        "Burst Statistics": {
           "proof": {
             "source": "script tag",
             "url": "https://www.cytofastmed.com/wp-content/plugins/burst-statistics/helpers/timeme/timeme.min.js"
           }
         },
-        "WordPress Plugin: wp-statistics": {
+        "WP Statistics": {
           "proof": {
             "source": "script tag",
             "url": "https://www.cytofastmed.com/wp-content/plugins/wp-statistics/assets/js/tracker.js"
           }
         },
-        "WordPress Theme: Vela": {
+        "Vela": {
           "proof": {
             "source": "script tag",
             "url": "https://www.cytofastmed.com/wp-content/themes/Vela/js/modernizr.js"
           }
         },
-        "WordPress Plugin: smart-slider-3": {
+        "Smart Slider 3": {
           "proof": {
             "source": "script tag",
             "url": "https://www.cytofastmed.com/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist/n2.min.js"
           }
         },
-        "WordPress Plugin: contact-form-7": {
+        "Contact Form 7": {
           "proof": {
             "source": "script tag",
             "url": "https://www.cytofastmed.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js"
           }
         },
-        "WordPress Plugin: js_composer": {
+        "WPBakery Page Builder": {
           "proof": {
             "source": "script tag",
             "url": "https://www.cytofastmed.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js"
           }
         },
-        "WordPress Plugin: creame-whatsapp-me": {
+        "Joinchat": {
           "proof": {
             "source": "script tag",
             "url": "https://www.cytofastmed.com/wp-content/plugins/creame-whatsapp-me/public/js/joinchat.min.js"
@@ -507,6 +514,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -524,6 +532,7 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache/2"
           }
         }
@@ -535,6 +544,7 @@
         "Nginx": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "nginx/1.30.4"
           }
         },
@@ -586,31 +596,25 @@
             "matched": "jquery.fancybox"
           }
         },
-        "WordPress Plugin: contact-form-7": {
+        "Contact Form 7": {
           "proof": {
             "source": "script tag",
             "url": "https://gutendorf.ru/wp-content/plugins/contact-form-7/includes/swv/js/index.js"
           }
         },
-        "WordPress Plugin: woocommerce": {
-          "proof": {
-            "source": "script tag",
-            "url": "https://gutendorf.ru/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js"
-          }
-        },
-        "WordPress Plugin: cf7-phone-mask-field": {
+        "Contact Form 7 Phone Mask Field": {
           "proof": {
             "source": "script tag",
             "url": "https://gutendorf.ru/wp-content/plugins/cf7-phone-mask-field/assets/js/jquery.maskedinput.js"
           }
         },
-        "WordPress Theme: gutendorf": {
+        "Gutendorf": {
           "proof": {
             "source": "script tag",
             "url": "https://gutendorf.ru/wp-content/themes/gutendorf/js/script.js"
           }
         },
-        "WordPress Theme: storefront": {
+        "Storefront": {
           "proof": {
             "source": "script tag",
             "url": "https://gutendorf.ru/wp-content/themes/storefront/assets/js/navigation.min.js"
@@ -624,6 +628,7 @@
         "Nginx": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "nginx/1.29.8"
           }
         },
@@ -681,31 +686,31 @@
             "matched": "<iframe class=\"elementor-video\" frameborder=\"0\" allowfullscreen=\"\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" title=\"Welcome to Kate's World Travel\" width=\"640\" height=\"360\" src=\"https:/"
           }
         },
-        "WordPress Theme: astra": {
+        "Astra": {
           "proof": {
             "source": "script tag",
             "url": "https://katesworldtravel.com/wp-content/themes/astra/assets/js/minified/frontend.min.js"
           }
         },
-        "WordPress Plugin: mystickymenu": {
+        "My Sticky Bar": {
           "proof": {
             "source": "script tag",
             "url": "https://katesworldtravel.com/wp-content/plugins/mystickymenu/dist/js/morphext.js"
           }
         },
-        "WordPress Plugin: bluehost-wordpress-plugin": {
+        "Bluehost WordPress Plugin": {
           "proof": {
             "source": "script tag",
             "url": "https://katesworldtravel.com/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-performance/build/assets/link-prefetch.min.js"
           }
         },
-        "WordPress Plugin: elementor": {
+        "Elementor": {
           "proof": {
             "source": "script tag",
             "url": "https://katesworldtravel.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js"
           }
         },
-        "WordPress Plugin: elementor-pro": {
+        "Elementor Pro": {
           "proof": {
             "source": "script tag",
             "url": "https://katesworldtravel.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js"
@@ -719,6 +724,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         }
@@ -727,10 +733,17 @@
     {
       "link": "gapconstructionwi.com",
       "technologies": {
+        "CloudFlare": {
+          "proof": {
+            "source": "response_headers",
+            "header": "Server",
+            "matched": "cloudflare"
+          }
+        },
         "Javascript Infovis Toolkit": {
           "proof": {
             "source": "html",
-            "matched": "jItOGIwZC0xODM3NzFiNTdhNDAiLCJiaVRva2VuIjoiMjZkZGE5NzUtNWExNi0wN2JhLTEwYzUtNjA4ZWI3ZDIzNGRlIiwic2l0ZU93bmVySWQiOiJkYmE1MzU1Yi1jMDFmLTQzMjAtYWIyMS03YzdlNzRiMmU3MTkiLCJjYWNoZSI6dHJ1ZSwic2NkIjoiMjAyMS0xMC0xOVQwMzo1Mzo1NS41ODRaIn0\"],\"4\":[\"141fbfae-511e-6817-c9f0-48993a7547d1\",\"z8q3QVT0XwYrQ2mULPsWPczvbj"
+            "matched": "jItOGIwZC0xODM3NzFiNTdhNDAiLCJiaVRva2VuIjoiMjZkZGE5NzUtNWExNi0wN2JhLTEwYzUtNjA4ZWI3ZDIzNGRlIiwic2l0ZU93bmVySWQiOiJkYmE1MzU1Yi1jMDFmLTQzMjAtYWIyMS03YzdlNzRiMmU3MTkiLCJjYWNoZSI6dHJ1ZSwic2NkIjoiMjAyMS0xMC0xOVQwMzo1Mzo1NS41ODRaIn0\"],\"4\":[\"141fbfae-511e-6817-c9f0-48993a7547d1\",\"J9VIM8KlKbjjWxWxyr-sf-9cCw"
           }
         },
         "Lightbox": {
@@ -797,20 +810,7 @@
     },
     {
       "link": "imgs.co.jp",
-      "technologies": {
-        "Google Analytics": {
-          "proof": {
-            "source": "network_script",
-            "url": "https://www.googletagmanager.com/gtag/js"
-          }
-        },
-        "jQuery": {
-          "proof": {
-            "source": "network_script",
-            "url": "https://www.imgs.co.jp/content/dam/imgs/asset/js/jquery.min.js"
-          }
-        }
-      }
+      "technologies": {}
     },
     {
       "link": "clotting-guide.online",
@@ -818,6 +818,7 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         },
@@ -863,19 +864,19 @@
             "matched": "jquery-migrate.min.js"
           }
         },
-        "WordPress Plugin: wpfront-notification-bar": {
+        "WPFront Notification Bar": {
           "proof": {
             "source": "script tag",
             "url": "https://www.clotting-guide.online/wp-content/plugins/wpfront-notification-bar/jquery-plugins/js-cookie.min.js"
           }
         },
-        "WordPress Theme: vogue": {
+        "Vogue": {
           "proof": {
             "source": "script tag",
             "url": "https://www.clotting-guide.online/wp-content/themes/vogue/js/jquery.carouFredSel-6.2.1-packed.js"
           }
         },
-        "WordPress Plugin: button-block": {
+        "Button Block": {
           "proof": {
             "source": "script tag",
             "url": "https://www.clotting-guide.online/wp-content/plugins/button-block/build/view.js"
@@ -889,6 +890,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -952,19 +954,19 @@
             "matched": "<link type=\"text/css\" rel=\"stylesheet\" href=\"https://fonts.googleapis.com"
           }
         },
-        "WordPress Plugin: wp-review-slider-pro-premium": {
+        "WP Review Slider Pro": {
           "proof": {
             "source": "script tag",
             "url": "https://www.38inspect.com/wp-content/plugins/wp-review-slider-pro-premium/public/js/wprs-slick.min.js"
           }
         },
-        "WordPress Theme: enfold": {
+        "Enfold": {
           "proof": {
             "source": "script tag",
             "url": "https://www.38inspect.com/wp-content/themes/enfold/config-lottie-animations/assets/lottie-player/dotlottie-player.js"
           }
         },
-        "WordPress Plugin: wp-font-awesome": {
+        "WP Font Awesome": {
           "proof": {
             "source": "link tag",
             "url": "https://www.38inspect.com/wp-content/plugins/wp-font-awesome/font-awesome/css/fontawesome-all.min.css"
@@ -978,13 +980,14 @@
         "Nginx": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "nginx"
           }
         },
         "W3 Total Cache": {
           "proof": {
             "source": "html",
-            "matched": "<!--\r\nPerformance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/?utm_source=w3tc&utm_medium=footer_comment&utm_campaign=free_plugin\r\n\r\nObject Caching 34/410 objects using Redis\r\nPage Caching using Disk: Enhanced \r\n\r\nServed from: newbeaverborough.org @ 2026-08-25 14"
+            "matched": "<!--\r\nPerformance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/?utm_source=w3tc&utm_medium=footer_comment&utm_campaign=free_plugin\r\n\r\nObject Caching 72/109 objects using Redis\r\nPage Caching using Disk: Enhanced \r\n\r\nServed from: newbeaverborough.org @ 2026-08-27 15"
           }
         },
         "WordPress": {
@@ -1041,49 +1044,49 @@
             "url": "https://weatherwidget.io/w/js/angular-1.5.8.min.js"
           }
         },
-        "WordPress Plugin: cryptx": {
+        "CryptX": {
           "proof": {
             "source": "script tag",
             "url": "https://newbeaverborough.org/wp-content/plugins/cryptx/js/cryptx.min.js"
           }
         },
-        "WordPress Plugin: functional-gov-wp": {
+        "Functional Gov WP": {
           "proof": {
             "source": "script tag",
             "url": "https://newbeaverborough.org/wp-content/plugins/functional-gov-wp/assets/js/notice.js"
           }
         },
-        "WordPress Plugin: elementor": {
+        "Elementor": {
           "proof": {
             "source": "script tag",
             "url": "https://newbeaverborough.org/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js"
           }
         },
-        "WordPress Plugin: modern-events-calendar-lite": {
+        "Modern Events Calendar Lite": {
           "proof": {
             "source": "script tag",
             "url": "https://newbeaverborough.org/wp-content/plugins/modern-events-calendar-lite/assets/js/jquery.typewatch.js"
           }
         },
-        "WordPress Plugin: cv-monitor": {
+        "Cv Monitor": {
           "proof": {
             "source": "script tag",
             "url": "https://newbeaverborough.org/wp-content/plugins/cv-monitor/public/js/external-links.min.js"
           }
         },
-        "WordPress Plugin: elementor-pro": {
+        "Elementor Pro": {
           "proof": {
             "source": "script tag",
             "url": "https://newbeaverborough.org/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js"
           }
         },
-        "WordPress Plugin: page-list": {
+        "Page-list": {
           "proof": {
             "source": "link tag",
             "url": "https://newbeaverborough.org/wp-content/plugins/page-list/css/page-list.css"
           }
         },
-        "WordPress Theme: hello-elementor": {
+        "Hello Elementor": {
           "proof": {
             "source": "link tag",
             "url": "https://newbeaverborough.org/wp-content/themes/hello-elementor/assets/css/reset.css"
@@ -1120,12 +1123,14 @@
         "LiteSpeed": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "LiteSpeed"
           }
         },
         "PHP": {
           "proof": {
             "source": "response_headers",
+            "header": "X-Powered-By",
             "matched": "PHP/7.4.33"
           }
         },
@@ -1143,6 +1148,7 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         },
@@ -1160,6 +1166,7 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         },
@@ -1214,7 +1221,7 @@
         "YouTube": {
           "proof": {
             "source": "html",
-            "matched": "<iframe class=\"elementor-video\" frameborder=\"0\" allowfullscreen=\"\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" title=\"Marloth Park Accommodation - Doringpoort Safari Lodge\" width=\"640\" he"
+            "matched": "<iframe class=\"elementor-video\" frameborder=\"0\" allowfullscreen=\"\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" title=\"YouTube video player\" width=\"640\" height=\"360\" src=\"https://www.youtu"
           }
         },
         "Swiper": {
@@ -1229,31 +1236,31 @@
             "url": "https://doringpoort.com/wp-content/plugins/elementor/assets/js/lightbox.c404a8ad323d6ea31d40.bundle.min.js"
           }
         },
-        "WordPress Plugin: wp-tripadvisor-review-slider": {
+        "WP TripAdvisor Review Slider": {
           "proof": {
             "source": "script tag",
             "url": "https://doringpoort.com/wp-content/plugins/wp-tripadvisor-review-slider/public/js/wprs-unslider-min.js"
           }
         },
-        "WordPress Plugin: click-to-chat-for-whatsapp": {
+        "Click to Chat": {
           "proof": {
             "source": "script tag",
             "url": "https://doringpoort.com/wp-content/plugins/click-to-chat-for-whatsapp/new/inc/assets/js/app.js"
           }
         },
-        "WordPress Theme: hello-elementor": {
+        "Hello Elementor": {
           "proof": {
             "source": "script tag",
             "url": "https://doringpoort.com/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js"
           }
         },
-        "WordPress Plugin: elementor-pro": {
+        "Elementor Pro": {
           "proof": {
             "source": "script tag",
             "url": "https://doringpoort.com/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js"
           }
         },
-        "WordPress Plugin: elementor": {
+        "Elementor": {
           "proof": {
             "source": "script tag",
             "url": "https://doringpoort.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js"
@@ -1267,6 +1274,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -1318,103 +1326,97 @@
             "matched": "googletagmanager.com/gtag/js?id=G-"
           }
         },
-        "WordPress Plugin: traction-external-links-speed-bump": {
+        "Traction External Links Speed Bump": {
           "proof": {
             "source": "script tag",
             "url": "https://myfrbank.com/wp-content/plugins/traction-external-links-speed-bump/js/traction-external-links-speed-bump.js"
           }
         },
-        "WordPress Plugin: gravityforms": {
+        "Gravity Forms": {
           "proof": {
             "source": "script tag",
             "url": "https://myfrbank.com/wp-content/plugins/gravityforms/js/jquery.json.min.js"
           }
         },
-        "WordPress Plugin: jet-menu": {
+        "JetMenu": {
           "proof": {
             "source": "script tag",
             "url": "https://myfrbank.com/wp-content/plugins/jet-menu/assets/public/js/jet-menu-mobile-menu-public-scripts.js"
           }
         },
-        "WordPress Plugin: make-section-column-clickable-elementor": {
+        "Make Section & Column Clickable For Elementor": {
           "proof": {
             "source": "script tag",
             "url": "https://myfrbank.com/wp-content/plugins/make-section-column-clickable-elementor/assets/js/ra-clickable.js"
           }
         },
-        "WordPress Plugin: t4b-news-ticker": {
+        "T4B News Ticker": {
           "proof": {
             "source": "script tag",
             "url": "https://myfrbank.com/wp-content/plugins/t4b-news-ticker/assets/js/t4bnt.atickers.js"
           }
         },
-        "WordPress Theme: hello-elementor": {
+        "Hello Elementor": {
           "proof": {
             "source": "script tag",
             "url": "https://myfrbank.com/wp-content/themes/hello-elementor/assets/js/hello-frontend.js"
           }
         },
-        "WordPress Plugin: jet-engine": {
+        "JetEngine": {
           "proof": {
             "source": "script tag",
             "url": "https://myfrbank.com/wp-content/plugins/jet-engine/assets/lib/jet-plugins/jet-plugins.js"
           }
         },
-        "WordPress Plugin: jet-elements": {
+        "JetElements": {
           "proof": {
             "source": "script tag",
             "url": "https://myfrbank.com/wp-content/plugins/jet-elements/assets/js/lib/anime-js/anime.min.js"
           }
         },
-        "WordPress Plugin: jet-popup": {
+        "JetPopup": {
           "proof": {
             "source": "script tag",
             "url": "https://myfrbank.com/wp-content/plugins/jet-popup/assets/js/jet-popup-frontend.js"
           }
         },
-        "WordPress Plugin: elementor": {
+        "Elementor": {
           "proof": {
             "source": "script tag",
             "url": "https://myfrbank.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js"
           }
         },
-        "WordPress Plugin: elementor-pro": {
+        "Elementor Pro": {
           "proof": {
             "source": "script tag",
             "url": "https://myfrbank.com/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js"
           }
         },
-        "WordPress Plugin: gravityformsturnstile": {
+        "Gravity Forms Cloudflare Turnstile Add-On": {
           "proof": {
             "source": "script tag",
             "url": "https://myfrbank.com/wp-content/plugins/gravityformsturnstile/assets/js/dist/vendor-theme.min.js"
           }
         },
-        "WordPress Plugin: akismet": {
+        "Akismet": {
           "proof": {
             "source": "script tag",
             "url": "https://myfrbank.com/wp-content/plugins/akismet/_inc/akismet-frontend.js"
           }
         },
-        "WordPress Plugin: jet-tabs": {
+        "JetTabs": {
           "proof": {
             "source": "script tag",
             "url": "https://myfrbank.com/wp-content/plugins/jet-tabs/assets/js/jet-tabs-frontend.min.js"
           }
         },
-        "WordPress Plugin: ditty-news-ticker": {
+        "Ditty": {
           "proof": {
             "source": "script tag",
             "url": "https://myfrbank.com/wp-content/plugins/ditty-news-ticker/assets/build/ditty.js"
           }
         },
-        "WordPress Theme: hello-elementor-child": {
-          "proof": {
-            "source": "link tag",
-            "url": "https://myfrbank.com/wp-content/themes/hello-elementor-child/style.css"
-          }
-        },
-        "WordPress Plugin: jet-theme-core": {
+        "JetThemeCore": {
           "proof": {
             "source": "link tag",
             "url": "https://myfrbank.com/wp-content/plugins/jet-theme-core/assets/css/frontend.css"
@@ -1428,6 +1430,7 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         },
@@ -1473,19 +1476,19 @@
             "matched": "flexslider.min.js"
           }
         },
-        "WordPress Theme: sparkling": {
+        "Sparkling": {
           "proof": {
             "source": "script tag",
             "url": "https://msc-manching.de/wp-content/themes/sparkling/assets/js/vendor/bootstrap.min.js"
           }
         },
-        "WordPress Plugin: contact-form-7": {
+        "Contact Form 7": {
           "proof": {
             "source": "script tag",
             "url": "https://msc-manching.de/wp-content/plugins/contact-form-7/includes/swv/js/index.js"
           }
         },
-        "WordPress Plugin: very-simple-event-list": {
+        "VS Event List": {
           "proof": {
             "source": "link tag",
             "url": "https://msc-manching.de/wp-content/plugins/very-simple-event-list/css/vsel-style.min.css"
@@ -1499,13 +1502,15 @@
         "Nginx": {
           "proof": {
             "source": "response_headers",
-            "matched": "nginx/1.18.0 (Ubuntu)"
+            "header": "Server",
+            "matched": "nginx/1.18.0"
           }
         },
         "Ubuntu": {
           "proof": {
             "source": "response_headers",
-            "matched": "nginx/1.18.0 (Ubuntu)"
+            "header": "Server",
+            "matched": "Ubuntu"
           }
         },
         "Twitter Bootstrap": {
@@ -1540,12 +1545,14 @@
         "LiteSpeed": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "LiteSpeed"
           }
         },
         "PHP": {
           "proof": {
             "source": "response_headers",
+            "header": "X-Powered-By",
             "matched": "PHP/8.4.23"
           }
         },
@@ -1585,16 +1592,16 @@
             "url": "https://challenges.cloudflare.com/turnstile/v0/api.js"
           }
         },
-        "WordPress Theme: Divi": {
-          "proof": {
-            "source": "network request",
-            "url": "https://coastwidemechanicalcentralcoast.com.au/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff"
-          }
-        },
-        "WordPress Plugin: litespeed-cache": {
+        "LiteSpeed Cache": {
           "proof": {
             "source": "network request",
             "url": "https://coastwidemechanicalcentralcoast.com.au/wp-content/plugins/litespeed-cache/guest.vary.php"
+          }
+        },
+        "Divi": {
+          "proof": {
+            "source": "network request",
+            "url": "https://coastwidemechanicalcentralcoast.com.au/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff"
           }
         }
       }
@@ -1605,13 +1612,15 @@
         "Kampyle": {
           "proof": {
             "source": "response_headers",
-            "matched": "pub_locale=ro; expires=Fri, 20 Aug 2027 20:35:17 GMT; Max-Age=31104000; path=/; domain=.amourfinder.com; SameSite=Lax\npub_cookieBootstrapParams=%7B%22inAppBrowserName%22%3A%22notInApp%22%2C%22theme%22%3A%22material%22%2C%22enableMobOnWeb%22%3Afalse%7D; expires=Wed, 25 Aug 2027 20:35:17 GMT; Max-Age=31536000; path=/; domain=.amourfinder.com; SameSite=Lax\nulpvi=386645526524792119ff41d92cc909d0; expires=Mon, 25 Aug 2036 20:35:17 GMT; Max-Age=315619200; path=/; domain=.amourfinder.com;HttpOnly;Secure\nlpvi=386645526524792119ff41d92cc909d0; expires=Mon, 25 Aug 2036 20:35:17 GMT; Max-Age=315619200; path=/; domain=.amourfinder.com;HttpOnly;Secure\npub_locale=deleted; expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0; path=/; domain=.amourfinder.com; SameSite=Lax\npub_locale=en; expires=Fri, 20 Aug 2027 20:35:17 GMT; Max-Age=31104000; path=/; domain=.amourfinder.com; SameSite=Lax\nlid=63cc9cae030e2f1750b628197b157c02; expires=Mon, 25 Aug 2036 20:35:17 GMT; Max-Age=315619200; path=/; domain=.amourfinder.com;HttpOnly;Secure\nTRACK_VISIT=%257B%2522url_to%2522%253A%2522https%253A%255C%252F%255C%252Fwww.amourfinder.com%255C%252F%253Futm_sub%253Dseo_brand%2522%252C%2522url_from%2522%253Anull%252C%2522date%2522%253A%25222026-08-25%2B20%253A35%253A17%2522%252C%2522source%2522%253A%2522direct%2522%252C%2522cluid%2522%253Anull%252C%2522trackVisitId%2522%253A%2522386645526524792119ff41d92cc909d0%2522%257D; expires=Wed, 25 Aug 2027 20:35:17 GMT; Max-Age=31536000; path=/; domain=.amourfinder.com;HttpOnly;Secure\nreferer=deleted; expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0;HttpOnly;Secure\nreferer=deleted; expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0; path=/;HttpOnly;Secure\nPHPSESSID=bdf192e89a513d2fc81f99afe27fd489; path=/; domain=.amourfinder.com; secure; httponly; samesite=lax;HttpOnly;Secure"
+            "header": "Set-Cookie",
+            "matched": "K_VISIT=[REDACTED]"
           }
         },
         "PHP": {
           "proof": {
             "source": "response_headers",
-            "matched": "pub_locale=ro; expires=Fri, 20 Aug 2027 20:35:17 GMT; Max-Age=31104000; path=/; domain=.amourfinder.com; SameSite=Lax\npub_cookieBootstrapParams=%7B%22inAppBrowserName%22%3A%22notInApp%22%2C%22theme%22%3A%22material%22%2C%22enableMobOnWeb%22%3Afalse%7D; expires=Wed, 25 Aug 2027 20:35:17 GMT; Max-Age=31536000; path=/; domain=.amourfinder.com; SameSite=Lax\nulpvi=386645526524792119ff41d92cc909d0; expires=Mon, 25 Aug 2036 20:35:17 GMT; Max-Age=315619200; path=/; domain=.amourfinder.com;HttpOnly;Secure\nlpvi=386645526524792119ff41d92cc909d0; expires=Mon, 25 Aug 2036 20:35:17 GMT; Max-Age=315619200; path=/; domain=.amourfinder.com;HttpOnly;Secure\npub_locale=deleted; expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0; path=/; domain=.amourfinder.com; SameSite=Lax\npub_locale=en; expires=Fri, 20 Aug 2027 20:35:17 GMT; Max-Age=31104000; path=/; domain=.amourfinder.com; SameSite=Lax\nlid=63cc9cae030e2f1750b628197b157c02; expires=Mon, 25 Aug 2036 20:35:17 GMT; Max-Age=315619200; path=/; domain=.amourfinder.com;HttpOnly;Secure\nTRACK_VISIT=%257B%2522url_to%2522%253A%2522https%253A%255C%252F%255C%252Fwww.amourfinder.com%255C%252F%253Futm_sub%253Dseo_brand%2522%252C%2522url_from%2522%253Anull%252C%2522date%2522%253A%25222026-08-25%2B20%253A35%253A17%2522%252C%2522source%2522%253A%2522direct%2522%252C%2522cluid%2522%253Anull%252C%2522trackVisitId%2522%253A%2522386645526524792119ff41d92cc909d0%2522%257D; expires=Wed, 25 Aug 2027 20:35:17 GMT; Max-Age=31536000; path=/; domain=.amourfinder.com;HttpOnly;Secure\nreferer=deleted; expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0;HttpOnly;Secure\nreferer=deleted; expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0; path=/;HttpOnly;Secure\nPHPSESSID=bdf192e89a513d2fc81f99afe27fd489; path=/; domain=.amourfinder.com; secure; httponly; samesite=lax;HttpOnly;Secure"
+            "header": "Set-Cookie",
+            "matched": "PHPSESSID=[REDACTED]"
           }
         }
       }
@@ -1622,7 +1631,8 @@
         "PHP": {
           "proof": {
             "source": "response_headers",
-            "matched": "__goc_session__=sqcaxavrozujmyurgnawlfvmlexwlybs; expires=Tue, 01-Sep-26 20:35:25 GMT; SameSite=Lax; path=/; secure; HttpOnly\nPHPSESSID=4356f35b3ae4f9099b86544c7690631f; expires=Tue, 25-Aug-2026 21:35:25 GMT; Max-Age=3600; path=/; domain=www.lojatatical.com.br; HttpOnly; SameSite=Lax"
+            "header": "Set-Cookie",
+            "matched": "PHPSESSID=[REDACTED]"
           }
         },
         "Google Font API": {
@@ -1694,7 +1704,7 @@
         "jQuery UI": {
           "proof": {
             "source": "html",
-            "matched": "jquery-ui-modules/widget\" src=\"https://www.lojatatical.com.br/static/frontend/bistwobis/tatical/pt_BR/jquery/ui-modules/widget.js\"></script><script type=\"text/javascript\" charset=\"utf-8\" async=\"\" data-requirecontext=\"_\" data-requiremodule=\"text\" src=\"https://www.lojatatical.com.br/static/frontend/bi"
+            "matched": "jquery-ui-modules/widget\" src=\"https://www.lojatatical.com.br/static/frontend/bistwobis/tatical/pt_BR/jquery/ui-modules/widget.js\"></script><script type=\"text/javascript\" charset=\"utf-8\" async=\"\" data-requirecontext=\"_\" data-requiremodule=\"jquery/jquery-migrate\" src=\"https://www.lojatatical.com.br/s"
           }
         },
         "jQuery Migrate": {
@@ -1810,58 +1820,52 @@
             "matched": "/waypoints/"
           }
         },
-        "WordPress Theme: superio": {
+        "Superio": {
           "proof": {
             "source": "script tag",
             "url": "https://jobresourcecentre.com/wp-content/themes/superio/js/bootstrap.min.js"
           }
         },
-        "WordPress Plugin: elementor": {
+        "Elementor": {
           "proof": {
             "source": "script tag",
             "url": "https://jobresourcecentre.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js"
           }
         },
-        "WordPress Plugin: contact-form-7": {
+        "Contact Form 7": {
           "proof": {
             "source": "script tag",
             "url": "https://jobresourcecentre.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js"
           }
         },
-        "WordPress Plugin: revslider": {
+        "Slider Revolution": {
           "proof": {
             "source": "script tag",
             "url": "https://jobresourcecentre.com/wp-content/plugins/revslider/public/assets/js/rbtools.min.js"
           }
         },
-        "WordPress Plugin: wp-job-board-pro": {
+        "WP Job Board Pro": {
           "proof": {
             "source": "script tag",
             "url": "https://jobresourcecentre.com/wp-content/plugins/wp-job-board-pro/assets/js/magnific/jquery.magnific-popup.min.js"
           }
         },
-        "WordPress Plugin: wp-private-message": {
+        "WP Private Message": {
           "proof": {
             "source": "script tag",
             "url": "https://jobresourcecentre.com/wp-content/plugins/wp-private-message/assets/js/perfect-scrollbar.jquery.min.js"
           }
         },
-        "WordPress Plugin: cmb2": {
+        "CMB2": {
           "proof": {
             "source": "script tag",
             "url": "https://jobresourcecentre.com/wp-content/plugins/cmb2/js/cmb2.min.js"
           }
         },
-        "WordPress Plugin: directorist": {
+        "Directorist": {
           "proof": {
             "source": "link tag",
             "url": "https://jobresourcecentre.com/wp-content/plugins/directorist/assets/vendor-css/openstreet-map/leaflet.css"
-          }
-        },
-        "WordPress Theme: superio-child": {
-          "proof": {
-            "source": "link tag",
-            "url": "https://jobresourcecentre.com/wp-content/themes/superio-child/style.css"
           }
         }
       }
@@ -1876,6 +1880,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -1983,7 +1988,7 @@
         "W3 Total Cache": {
           "proof": {
             "source": "html",
-            "matched": "<!--\r\nPerformance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/?utm_source=w3tc&utm_medium=footer_comment&utm_campaign=free_plugin\r\n\r\nPage Caching using Disk \r\n\r\nServed from: www.velvety-cosmetics.com @ 2026-08-25 21:58:22 by W3 Total Cache"
+            "matched": "<!--\r\nPerformance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/?utm_source=w3tc&utm_medium=footer_comment&utm_campaign=free_plugin\r\n\r\nPage Caching using Disk \r\n\r\nServed from: www.velvety-cosmetics.com @ 2026-08-27 21:27:06 by W3 Total Cache"
           }
         },
         "WordPress": {
@@ -2016,43 +2021,37 @@
             "matched": "jquery-migrate.min.js"
           }
         },
-        "WordPress Plugin: sitepress-multilingual-cms": {
+        "WPML": {
           "proof": {
             "source": "script tag",
             "url": "https://www.velvety-cosmetics.com/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js"
           }
         },
-        "WordPress Plugin: cookie-law-info": {
+        "CookieYes": {
           "proof": {
             "source": "script tag",
             "url": "https://www.velvety-cosmetics.com/wp-content/plugins/cookie-law-info/legacy/public/js/cookie-law-info-public.js"
           }
         },
-        "WordPress Plugin: contact-form-7": {
+        "Contact Form 7": {
           "proof": {
             "source": "script tag",
             "url": "https://www.velvety-cosmetics.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js"
           }
         },
-        "WordPress Plugin: cf7-multi-step": {
+        "Multi Step for Contact Form 7": {
           "proof": {
             "source": "script tag",
             "url": "https://www.velvety-cosmetics.com/wp-content/plugins/cf7-multi-step/assets/frontend/js/cf7mls.js"
           }
         },
-        "WordPress Theme: flatsome-child": {
+        "Flatsome": {
           "proof": {
             "source": "script tag",
             "url": "https://www.velvety-cosmetics.com/wp-content/themes/flatsome-child/flatsome-child/js/counter.js"
           }
         },
-        "WordPress Theme: flatsome": {
-          "proof": {
-            "source": "script tag",
-            "url": "https://www.velvety-cosmetics.com/wp-content/themes/flatsome/assets/js/extensions/flatsome-live-search.js"
-          }
-        },
-        "WordPress Plugin: cf7-conditional-fields": {
+        "Conditional Fields for Contact Form 7": {
           "proof": {
             "source": "script tag",
             "url": "https://www.velvety-cosmetics.com/wp-content/plugins/cf7-conditional-fields/js/scripts.js"
@@ -2066,6 +2065,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -2090,7 +2090,7 @@
         "Lightbox": {
           "proof": {
             "source": "html",
-            "matched": "lightbox\" data-script=\"amp-auto-lightbox\" i-amphtml-inserted=\"\" nonce=\"MzQwMTg1NDM0MywyNTE4OTgwNzQ4\" crossorigin=\"anonymous\" src=\"https://cdn.ampproject.org/rtv/012607210106000/v0/amp-auto-lightbox-0.1.js\"></script><link rel=\"preconnect\" href=\"https://doortodoororganics.com\" referrerpolicy=\"origin\">"
+            "matched": "lightbox\" data-script=\"amp-auto-lightbox\" i-amphtml-inserted=\"\" nonce=\"MzQwMTg1NDM0MywyNTE4OTgwNzQ4\" crossorigin=\"anonymous\" src=\"https://cdn.ampproject.org/rtv/012608131752000/v0/amp-auto-lightbox-0.1.js\"></script><link rel=\"preconnect\" href=\"https://doortodoororganics.com\" referrerpolicy=\"origin\">"
           }
         }
       }
@@ -2101,6 +2101,7 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         },
@@ -2158,19 +2159,19 @@
             "matched": "flexslider.js"
           }
         },
-        "WordPress Theme: Avada": {
+        "Avada": {
           "proof": {
             "source": "script tag",
             "url": "https://kentpropertyrenovations.co.uk/wp-content/themes/Avada/includes/lib/assets/min/js/library/modernizr.js"
           }
         },
-        "WordPress Plugin: fusion-builder": {
+        "Avada Builder": {
           "proof": {
             "source": "script tag",
             "url": "https://kentpropertyrenovations.co.uk/wp-content/plugins/fusion-builder/assets/js/min/general/fusion-column-bg-image.js"
           }
         },
-        "WordPress Plugin: fusion-core": {
+        "Avada Core": {
           "proof": {
             "source": "script tag",
             "url": "https://kentpropertyrenovations.co.uk/wp-content/plugins/fusion-core/js/min/avada-portfolio.js"
@@ -2188,6 +2189,7 @@
         "PHP": {
           "proof": {
             "source": "response_headers",
+            "header": "X-Powered-By",
             "matched": "PHP/7.4.33"
           }
         },
@@ -2239,52 +2241,46 @@
             "matched": "isotope.pkgd"
           }
         },
-        "WordPress Theme: bridge": {
+        "Bridge": {
           "proof": {
             "source": "script tag",
             "url": "https://rionecontrastanga.net/wp-content/themes/bridge/js/plugins/ScrollToPlugin.min.js"
           }
         },
-        "WordPress Plugin: LayerSlider": {
+        "LayerSlider": {
           "proof": {
             "source": "script tag",
             "url": "https://rionecontrastanga.net/wp-content/plugins/LayerSlider/static/layerslider/js/greensock.js"
           }
         },
-        "WordPress Plugin: revslider": {
+        "Slider Revolution": {
           "proof": {
             "source": "script tag",
             "url": "https://rionecontrastanga.net/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js"
           }
         },
-        "WordPress Plugin: contact-form-7": {
+        "Contact Form 7": {
           "proof": {
             "source": "script tag",
             "url": "https://rionecontrastanga.net/wp-content/plugins/contact-form-7/includes/swv/js/index.js"
           }
         },
-        "WordPress Plugin: js_composer": {
+        "WPBakery Page Builder": {
           "proof": {
             "source": "script tag",
             "url": "https://rionecontrastanga.net/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js"
           }
         },
-        "WordPress Plugin: creame-whatsapp-me": {
+        "Joinchat": {
           "proof": {
             "source": "script tag",
             "url": "https://rionecontrastanga.net/wp-content/plugins/creame-whatsapp-me/public/js/joinchat.min.js"
           }
         },
-        "WordPress Plugin: instagram-feed": {
+        "Smash Balloon Social Photo Feed": {
           "proof": {
             "source": "script tag",
             "url": "https://rionecontrastanga.net/wp-content/plugins/instagram-feed/js/sbi-scripts.min.js"
-          }
-        },
-        "WordPress Theme: bridge-child": {
-          "proof": {
-            "source": "link tag",
-            "url": "https://rionecontrastanga.net/wp-content/themes/bridge-child/style.css"
           }
         }
       }
@@ -2295,6 +2291,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         }
@@ -2306,12 +2303,14 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         },
         "PHP": {
           "proof": {
             "source": "response_headers",
+            "header": "X-Powered-By",
             "matched": "PHP/8.0.30"
           }
         },
@@ -2387,46 +2386,40 @@
             "matched": "waypoints.min.js"
           }
         },
-        "WordPress Plugin: js_composer": {
+        "WPBakery Page Builder": {
           "proof": {
             "source": "script tag",
             "url": "https://empresasori.com/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js"
           }
         },
-        "WordPress Theme: woodmart": {
+        "WoodMart": {
           "proof": {
             "source": "script tag",
             "url": "https://empresasori.com/wp-content/themes/woodmart/js/libs/device.min.js"
           }
         },
-        "WordPress Plugin: jetpack": {
+        "Jetpack": {
           "proof": {
             "source": "script tag",
             "url": "https://empresasori.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-image-cdn/dist/image-cdn.js"
           }
         },
-        "WordPress Plugin: chaty": {
+        "Chaty": {
           "proof": {
             "source": "script tag",
             "url": "https://empresasori.com/wp-content/plugins/chaty/js/cht-front-script.min.js"
           }
         },
-        "WordPress Plugin: contact-form-7": {
+        "Contact Form 7": {
           "proof": {
             "source": "script tag",
             "url": "https://empresasori.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js"
           }
         },
-        "WordPress Plugin: revslider": {
+        "Slider Revolution": {
           "proof": {
             "source": "script tag",
             "url": "https://empresasori.com/wp-content/plugins/revslider/public/assets/js/rbtools.min.js"
-          }
-        },
-        "WordPress Theme: woodmart-child": {
-          "proof": {
-            "source": "link tag",
-            "url": "https://empresasori.com/wp-content/themes/woodmart-child/style.css"
           }
         }
       }
@@ -2437,6 +2430,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -2454,6 +2448,7 @@
         "LiteSpeed": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "LiteSpeed"
           }
         },
@@ -2477,6 +2472,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -2516,28 +2512,22 @@
             "matched": "jquery-migrate.min.js"
           }
         },
-        "WordPress Plugin: page-scroll-to-id": {
+        "Page scroll to id": {
           "proof": {
             "source": "script tag",
             "url": "https://5w.design/wp-content/plugins/page-scroll-to-id/js/page-scroll-to-id.min.js"
           }
         },
-        "WordPress Theme: semplice6": {
+        "Semplice 6": {
           "proof": {
             "source": "script tag",
             "url": "https://5w.design/wp-content/themes/semplice6/assets/js/shared.scripts.min.js"
           }
         },
-        "WordPress Plugin: wp-statistics": {
+        "WP Statistics": {
           "proof": {
             "source": "script tag",
             "url": "https://5w.design/wp-content/plugins/wp-statistics/assets/js/tracker.js"
-          }
-        },
-        "WordPress Theme: semplice6-child": {
-          "proof": {
-            "source": "script tag",
-            "url": "https://5w.design/wp-content/themes/semplice6-child/assets/js/custom.js"
           }
         }
       }
@@ -2548,6 +2538,7 @@
         "Nginx": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "nginx"
           }
         },
@@ -2653,12 +2644,14 @@
         "LiteSpeed": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "LiteSpeed"
           }
         },
         "PHP": {
           "proof": {
             "source": "response_headers",
+            "header": "X-Powered-By",
             "matched": "PHP/7.4.33"
           }
         },
@@ -2686,7 +2679,7 @@
             "matched": "jquery-migrate.min.js"
           }
         },
-        "WordPress Theme: twentytwelve": {
+        "Twenty Twelve": {
           "proof": {
             "source": "script tag",
             "url": "https://centreconsiliereavort.ro/wp-content/themes/twentytwelve/js/navigation.js"
@@ -2700,6 +2693,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -2727,19 +2721,19 @@
             "matched": "jquery-migrate.min.js"
           }
         },
-        "WordPress Theme: generatepress": {
+        "GeneratePress": {
           "proof": {
             "source": "script tag",
             "url": "https://www.infoaboutnetwork.com/wp-content/themes/generatepress/assets/js/menu.min.js"
           }
         },
-        "WordPress Plugin: wp-show-posts": {
+        "WP Show Posts": {
           "proof": {
             "source": "script tag",
             "url": "https://www.infoaboutnetwork.com/wp-content/plugins/wp-show-posts/js/jquery.matchHeight.js"
           }
         },
-        "WordPress Theme: network-theme": {
+        "Network Theme": {
           "proof": {
             "source": "link tag",
             "url": "https://www.infoaboutnetwork.com/wp-content/themes/network-theme/style.css"
@@ -2753,6 +2747,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -2844,7 +2839,20 @@
     },
     {
       "link": "passwordstore.it",
-      "technologies": {}
+      "technologies": {
+        "WordPress": {
+          "proof": {
+            "source": "network_script",
+            "url": "https://passwordstore.it/wp-content/cache/wpfc-minified/145wlqhb/2sbj8.js"
+          }
+        },
+        "WordPress Plugin: Wp Fastest Cache Premium": {
+          "proof": {
+            "source": "network request",
+            "url": "https://passwordstore.it/wp-content/plugins/wp-fastest-cache-premium/pro/images/blank.gif"
+          }
+        }
+      }
     },
     {
       "link": "avocatalinamanciu.ro",
@@ -2852,6 +2860,7 @@
         "LiteSpeed": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "LiteSpeed"
           }
         },
@@ -2933,37 +2942,37 @@
             "matched": "flickity.pkgd.min.js"
           }
         },
-        "WordPress Plugin: elementor": {
+        "Elementor": {
           "proof": {
             "source": "script tag",
             "url": "https://avocatalinamanciu.ro/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js"
           }
         },
-        "WordPress Plugin: cookie-notice": {
+        "Cookie Notice": {
           "proof": {
             "source": "script tag",
             "url": "https://avocatalinamanciu.ro/wp-content/plugins/cookie-notice/js/front.min.js"
           }
         },
-        "WordPress Theme: oceanwp": {
+        "OceanWP": {
           "proof": {
             "source": "script tag",
             "url": "https://avocatalinamanciu.ro/wp-content/themes/oceanwp/assets/js/theme.min.js"
           }
         },
-        "WordPress Plugin: jeg-elementor-kit": {
+        "Jeg Elementor Kit": {
           "proof": {
             "source": "script tag",
             "url": "https://avocatalinamanciu.ro/wp-content/plugins/jeg-elementor-kit/assets/js/elements/sticky-element.js"
           }
         },
-        "WordPress Plugin: pro-elements": {
+        "Pro Elements": {
           "proof": {
             "source": "script tag",
             "url": "https://avocatalinamanciu.ro/wp-content/plugins/pro-elements/assets/lib/smartmenus/jquery.smartmenus.min.js"
           }
         },
-        "WordPress Plugin: ocean-extra": {
+        "Ocean Extra": {
           "proof": {
             "source": "link tag",
             "url": "https://avocatalinamanciu.ro/wp-content/plugins/ocean-extra/assets/css/widgets.css"
@@ -2977,6 +2986,7 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         }
@@ -2988,6 +2998,7 @@
         "Nginx": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "nginx/1.29.8"
           }
         },
@@ -3045,25 +3056,25 @@
             "matched": "google.com/recaptcha/"
           }
         },
-        "WordPress Plugin: litespeed-cache": {
+        "LiteSpeed Cache": {
           "proof": {
             "source": "script tag",
             "url": "https://www.dssfla.com/wp-content/plugins/litespeed-cache/assets/js/webfontloader.min.js"
           }
         },
-        "WordPress Plugin: salient-nectar-slider": {
+        "Salient Nectar Slider": {
           "proof": {
             "source": "network request",
             "url": "https://www.dssfla.com/wp-content/plugins/salient-nectar-slider/img/textures/grid.png"
           }
         },
-        "WordPress Plugin: salient-portfolio": {
+        "Salient Portfolio": {
           "proof": {
             "source": "network request",
             "url": "https://www.dssfla.com/wp-content/plugins/salient-portfolio/img/transparent.png"
           }
         },
-        "WordPress Theme: salient": {
+        "Salient": {
           "proof": {
             "source": "network request",
             "url": "https://www.dssfla.com/wp-content/themes/salient/css/fonts/icomoon.woff"
@@ -3077,6 +3088,7 @@
         "LiteSpeed": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "LiteSpeed"
           }
         },
@@ -3140,43 +3152,37 @@
             "matched": "slick.min"
           }
         },
-        "WordPress Plugin: woocommerce": {
-          "proof": {
-            "source": "script tag",
-            "url": "https://weducars.co.za/css/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js"
-          }
-        },
-        "WordPress Plugin: js_composer": {
+        "WPBakery Page Builder": {
           "proof": {
             "source": "script tag",
             "url": "https://weducars.co.za/css/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js"
           }
         },
-        "WordPress Plugin: elementor": {
+        "Elementor": {
           "proof": {
             "source": "script tag",
             "url": "https://weducars.co.za/css/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js"
           }
         },
-        "WordPress Plugin: click-to-chat-for-whatsapp": {
+        "Click to Chat": {
           "proof": {
             "source": "script tag",
             "url": "https://weducars.co.za/css/wp-content/plugins/click-to-chat-for-whatsapp/new/inc/assets/js/app.js"
           }
         },
-        "WordPress Plugin: contact-form-7": {
+        "Contact Form 7": {
           "proof": {
             "source": "script tag",
             "url": "https://weducars.co.za/css/wp-content/plugins/contact-form-7/includes/swv/js/index.js"
           }
         },
-        "WordPress Plugin: revslider": {
+        "Slider Revolution": {
           "proof": {
             "source": "script tag",
             "url": "https://weducars.co.za/css/wp-content/plugins/revslider/sr6/assets/js/rbtools.min.js"
           }
         },
-        "WordPress Theme: betheme": {
+        "BeTheme": {
           "proof": {
             "source": "script tag",
             "url": "https://weducars.co.za/css/wp-content/themes/betheme/js/plugins/debouncedresize.min.js"
@@ -3190,6 +3196,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -3235,49 +3242,49 @@
             "matched": "jquery-migrate.min.js"
           }
         },
-        "WordPress Plugin: google-analytics-for-wordpress": {
+        "MonsterInsights": {
           "proof": {
             "source": "script tag",
             "url": "https://4stonebuildings.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js"
           }
         },
-        "WordPress Plugin: stop-user-enumeration": {
+        "Stop User Enumeration": {
           "proof": {
             "source": "script tag",
             "url": "https://4stonebuildings.com/wp-content/plugins/stop-user-enumeration/frontend/js/frontend.js"
           }
         },
-        "WordPress Plugin: sqe-lawyers-master": {
+        "SQE Lawyers Master": {
           "proof": {
             "source": "script tag",
             "url": "https://4stonebuildings.com/wp-content/plugins/sqe-lawyers-master/public/js/sqe-lawyers.js"
           }
         },
-        "WordPress Theme: 4stone": {
+        "4stone": {
           "proof": {
             "source": "script tag",
             "url": "https://4stonebuildings.com/wp-content/themes/4stone/dist/bundle.js"
           }
         },
-        "WordPress Plugin: shiftnav-pro": {
+        "Shiftnav Pro": {
           "proof": {
             "source": "script tag",
             "url": "https://4stonebuildings.com/wp-content/plugins/shiftnav-pro/assets/js/shiftnav.min.js"
           }
         },
-        "WordPress Plugin: complianz-gdpr": {
+        "Complianz": {
           "proof": {
             "source": "script tag",
             "url": "https://4stonebuildings.com/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js"
           }
         },
-        "WordPress Plugin: sqe-functions-master": {
+        "SQE Functions Master": {
           "proof": {
             "source": "link tag",
             "url": "https://4stonebuildings.com/wp-content/plugins/sqe-functions-master/public/css/sqe-functions.css"
           }
         },
-        "WordPress Plugin: wp-pagenavi": {
+        "WP-PageNavi": {
           "proof": {
             "source": "link tag",
             "url": "https://4stonebuildings.com/wp-content/plugins/wp-pagenavi/css/wp-pagenavi.css"
@@ -3291,6 +3298,7 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache/2"
           }
         },
@@ -3372,61 +3380,61 @@
             "matched": "imagesloaded.pkgd"
           }
         },
-        "WordPress Plugin: dethemekit-for-elementor": {
+        "DethemeKit for Elementor": {
           "proof": {
             "source": "script tag",
             "url": "https://maniaupiekszania.pl/wp-content/plugins/dethemekit-for-elementor/assets/js/jquery-1.12.4-wp.js"
           }
         },
-        "WordPress Plugin: sticky-header-effects-for-elementor": {
+        "Sticky Header Effects for Elementor": {
           "proof": {
             "source": "script tag",
             "url": "https://maniaupiekszania.pl/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js"
           }
         },
-        "WordPress Theme: oceanwp": {
+        "OceanWP": {
           "proof": {
             "source": "script tag",
             "url": "https://maniaupiekszania.pl/wp-content/themes/oceanwp/assets/js/theme.min.js"
           }
         },
-        "WordPress Plugin: elementskit-lite": {
+        "ElementsKit": {
           "proof": {
             "source": "script tag",
             "url": "https://maniaupiekszania.pl/wp-content/plugins/elementskit-lite/libs/framework/assets/js/frontend-script.js"
           }
         },
-        "WordPress Plugin: gdpr-cookie-compliance": {
+        "GDPR Cookie Compliance": {
           "proof": {
             "source": "script tag",
             "url": "https://maniaupiekszania.pl/wp-content/plugins/gdpr-cookie-compliance/dist/scripts/main.js"
           }
         },
-        "WordPress Plugin: pro-elements": {
+        "Pro Elements": {
           "proof": {
             "source": "script tag",
             "url": "https://maniaupiekszania.pl/wp-content/plugins/pro-elements/assets/lib/smartmenus/jquery.smartmenus.min.js"
           }
         },
-        "WordPress Plugin: elementor": {
+        "Elementor": {
           "proof": {
             "source": "script tag",
             "url": "https://maniaupiekszania.pl/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js"
           }
         },
-        "WordPress Plugin: wpforms-lite": {
+        "WPForms": {
           "proof": {
             "source": "script tag",
             "url": "https://maniaupiekszania.pl/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js"
           }
         },
-        "WordPress Plugin: header-footer-elementor": {
+        "Ultimate Addons for Elementor": {
           "proof": {
             "source": "link tag",
             "url": "https://maniaupiekszania.pl/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css"
           }
         },
-        "WordPress Plugin: ocean-extra": {
+        "Ocean Extra": {
           "proof": {
             "source": "link tag",
             "url": "https://maniaupiekszania.pl/wp-content/plugins/ocean-extra/assets/css/widgets.css"
@@ -3440,12 +3448,14 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         },
         "PHP": {
           "proof": {
             "source": "response_headers",
+            "header": "X-Powered-By",
             "matched": "PHP/8.3.32"
           }
         },
@@ -3461,25 +3471,25 @@
             "matched": "<link rel='stylesheet' id='edac-sr-only-format-css' href='https://sprucemeadowsmd.com/wp-content"
           }
         },
-        "WordPress Plugin: accessibility-new-window-warnings": {
+        "Accessibility New Window Warnings": {
           "proof": {
             "source": "script tag",
             "url": "https://sprucemeadowsmd.com/wp-content/plugins/accessibility-new-window-warnings/assets/js/accessibility-new-window-warnings-min.js"
           }
         },
-        "WordPress Plugin: accessibility-checker": {
+        "Equalize Digital Accessibility Checker": {
           "proof": {
             "source": "script tag",
             "url": "https://sprucemeadowsmd.com/wp-content/plugins/accessibility-checker/build/frontendFixes.bundle.js"
           }
         },
-        "WordPress Theme: kadence": {
+        "Kadence": {
           "proof": {
             "source": "script tag",
             "url": "https://sprucemeadowsmd.com/wp-content/themes/kadence/assets/js/navigation.min.js"
           }
         },
-        "WordPress Plugin: kadence-blocks": {
+        "Kadence Blocks": {
           "proof": {
             "source": "link tag",
             "url": "https://sprucemeadowsmd.com/wp-content/plugins/kadence-blocks/dist/style-blocks-rowlayout.css"
@@ -3493,6 +3503,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -3538,31 +3549,31 @@
             "matched": "google.com/recaptcha/"
           }
         },
-        "WordPress Plugin: google-analytics-for-wordpress": {
+        "MonsterInsights": {
           "proof": {
             "source": "script tag",
             "url": "https://www.natedea.co.uk/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js"
           }
         },
-        "WordPress Plugin: contact-form-7": {
+        "Contact Form 7": {
           "proof": {
             "source": "script tag",
             "url": "https://www.natedea.co.uk/wp-content/plugins/contact-form-7/includes/swv/js/index.js"
           }
         },
-        "WordPress Plugin: fusion-core": {
+        "Avada Core": {
           "proof": {
             "source": "link tag",
             "url": "https://www.natedea.co.uk/wp-content/plugins/fusion-core/css/comment-form.min.css"
           }
         },
-        "WordPress Theme: Avada": {
+        "Avada": {
           "proof": {
             "source": "link tag",
             "url": "https://www.natedea.co.uk/wp-content/themes/Avada/assets/css/style.min.css"
           }
         },
-        "WordPress Plugin: fusion-builder": {
+        "Avada Builder": {
           "proof": {
             "source": "link tag",
             "url": "https://www.natedea.co.uk/wp-content/plugins/fusion-builder/assets/css/media/button-md.min.css"
@@ -3576,7 +3587,8 @@
         "Java": {
           "proof": {
             "source": "response_headers",
-            "matched": "JSESSIONID=243E94E87719983CD17BDEDC52269BD4; Path=/; HttpOnly"
+            "header": "Set-Cookie",
+            "matched": "JSESSIONID=[REDACTED]"
           }
         },
         "Twitter Bootstrap": {
@@ -3641,6 +3653,7 @@
         "Nginx": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "nginx"
           }
         },
@@ -3682,6 +3695,7 @@
         "Nginx": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "nginx"
           }
         },
@@ -3721,19 +3735,19 @@
             "matched": "jquery-migrate.min.js"
           }
         },
-        "WordPress Theme: hello-elementor": {
+        "Hello Elementor": {
           "proof": {
             "source": "script tag",
             "url": "https://arenaskolor.se/wp-content/themes/hello-elementor/assets/js/hello-frontend.js"
           }
         },
-        "WordPress Plugin: elementor": {
+        "Elementor": {
           "proof": {
             "source": "script tag",
             "url": "https://arenaskolor.se/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js"
           }
         },
-        "WordPress Plugin: elementor-pro": {
+        "Elementor Pro": {
           "proof": {
             "source": "script tag",
             "url": "https://arenaskolor.se/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js"
@@ -3747,6 +3761,7 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         },
@@ -3786,13 +3801,13 @@
             "matched": "jquery-migrate.min.js"
           }
         },
-        "WordPress Theme: natural-lite": {
+        "Natural Lite": {
           "proof": {
             "source": "script tag",
             "url": "https://boken.ch/wp-content/themes/natural-lite/js/jquery.fitvids.js"
           }
         },
-        "WordPress Plugin: matomo": {
+        "Matomo Analytics": {
           "proof": {
             "source": "network request",
             "url": "https://boken.ch/wp-content/plugins/matomo/app/matomo.php"
@@ -3806,6 +3821,7 @@
         "LiteSpeed": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "LiteSpeed"
           }
         },
@@ -3853,6 +3869,7 @@
         "Nginx": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "nginx"
           }
         }
@@ -3864,12 +3881,14 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
         "PHP": {
           "proof": {
             "source": "response_headers",
+            "header": "X-Powered-By",
             "matched": "PHP/8.2.30"
           }
         },
@@ -3951,37 +3970,37 @@
             "matched": "/swiper.min"
           }
         },
-        "WordPress Theme: astra": {
+        "Astra": {
           "proof": {
             "source": "script tag",
             "url": "https://www.365outsource.com/wp-content/themes/astra/assets/js/minified/style.min.js"
           }
         },
-        "WordPress Plugin: astra-addon": {
+        "Astra Pro": {
           "proof": {
             "source": "script tag",
             "url": "https://www.365outsource.com/wp-content/plugins/astra-addon/assets/js/minified/purify.min.js"
           }
         },
-        "WordPress Plugin: elementor": {
+        "Elementor": {
           "proof": {
             "source": "script tag",
             "url": "https://www.365outsource.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js"
           }
         },
-        "WordPress Plugin: elementor-pro": {
+        "Elementor Pro": {
           "proof": {
             "source": "script tag",
             "url": "https://www.365outsource.com/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js"
           }
         },
-        "WordPress Plugin: simple-cloudflare-turnstile": {
+        "Simple Cloudflare Turnstile": {
           "proof": {
             "source": "script tag",
             "url": "https://www.365outsource.com/wp-content/plugins/simple-cloudflare-turnstile/js/integrations/elementor-forms.js"
           }
         },
-        "WordPress Theme: 365outsource": {
+        "365outsource": {
           "proof": {
             "source": "link tag",
             "url": "https://www.365outsource.com/wp-content/themes/365outsource/style.css"
@@ -3999,6 +4018,7 @@
         "Nginx": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "nginx"
           }
         }
@@ -4010,6 +4030,7 @@
         "Nginx": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "nginx/1.29.8"
           }
         },
@@ -4061,25 +4082,25 @@
             "matched": "jquery-migrate.min.js"
           }
         },
-        "WordPress Plugin: elementor": {
+        "Elementor": {
           "proof": {
             "source": "script tag",
             "url": "https://skywayrestaurants.net/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js"
           }
         },
-        "WordPress Plugin: stratum": {
+        "Stratum Widgets for Elementor": {
           "proof": {
             "source": "script tag",
             "url": "https://skywayrestaurants.net/wp-content/plugins/stratum/assets/js/editor-panel.min.js"
           }
         },
-        "WordPress Theme: astra": {
+        "Astra": {
           "proof": {
             "source": "script tag",
             "url": "https://skywayrestaurants.net/wp-content/themes/astra/assets/js/minified/frontend.min.js"
           }
         },
-        "WordPress Plugin: astra-sites": {
+        "Starter Templates": {
           "proof": {
             "source": "script tag",
             "url": "https://skywayrestaurants.net/wp-content/plugins/astra-sites/inc/lib/onboarding/assets/dist/template-preview/main.js"
@@ -4093,6 +4114,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -4132,19 +4154,19 @@
             "matched": "/swiper.min"
           }
         },
-        "WordPress Theme: hello-elementor": {
+        "Hello Elementor": {
           "proof": {
             "source": "script tag",
             "url": "https://2020wealthadvisory.com/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js"
           }
         },
-        "WordPress Plugin: elementor-pro": {
+        "Elementor Pro": {
           "proof": {
             "source": "script tag",
             "url": "https://2020wealthadvisory.com/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js"
           }
         },
-        "WordPress Plugin: elementor": {
+        "Elementor": {
           "proof": {
             "source": "script tag",
             "url": "https://2020wealthadvisory.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js"
@@ -4158,13 +4180,15 @@
         "Nginx": {
           "proof": {
             "source": "response_headers",
-            "matched": "nginx/1.18.0 (Ubuntu)"
+            "header": "Server",
+            "matched": "nginx/1.18.0"
           }
         },
         "Ubuntu": {
           "proof": {
             "source": "response_headers",
-            "matched": "nginx/1.18.0 (Ubuntu)"
+            "header": "Server",
+            "matched": "Ubuntu"
           }
         },
         "Font Awesome": {
@@ -4247,6 +4271,7 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         },
@@ -4268,7 +4293,7 @@
             "matched": "jquery-migrate.min.js"
           }
         },
-        "WordPress Theme: titan-digital-agency": {
+        "Titan Digital Agency": {
           "proof": {
             "source": "script tag",
             "url": "https://itsolutions24.pl/wp-content/themes/titan-digital-agency/assets/js/custom-script.js"
@@ -4282,6 +4307,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -4339,37 +4365,37 @@
             "matched": "/swiper.min"
           }
         },
-        "WordPress Plugin: google-analytics-for-wordpress": {
+        "MonsterInsights": {
           "proof": {
             "source": "script tag",
             "url": "https://aaice.net/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js"
           }
         },
-        "WordPress Plugin: popups-for-divi": {
+        "Popups for Divi": {
           "proof": {
             "source": "script tag",
             "url": "https://aaice.net/wp-content/plugins/popups-for-divi/scripts/ie-compat.min.js"
           }
         },
-        "WordPress Plugin: gs-logo-slider": {
+        "Logo Slider": {
           "proof": {
             "source": "script tag",
             "url": "https://aaice.net/wp-content/plugins/gs-logo-slider/assets/libs/swiper-js/swiper.min.js"
           }
         },
-        "WordPress Plugin: coblocks": {
+        "CoBlocks": {
           "proof": {
             "source": "script tag",
             "url": "https://aaice.net/wp-content/plugins/coblocks/dist/js/coblocks-animation.js"
           }
         },
-        "WordPress Theme: Divi": {
+        "Divi": {
           "proof": {
             "source": "script tag",
             "url": "https://aaice.net/wp-content/themes/Divi/js/scripts.min.js"
           }
         },
-        "WordPress Plugin: gravityforms": {
+        "Gravity Forms": {
           "proof": {
             "source": "link tag",
             "url": "https://aaice.net/wp-content/plugins/gravityforms/legacy/css/formreset.min.css"
@@ -4387,13 +4413,15 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         },
         "PHP": {
           "proof": {
             "source": "response_headers",
-            "matched": "PHPSESSID=vq4jpem5l8svja32f7b0lv3q3q; path=/"
+            "header": "Set-Cookie",
+            "matched": "PHPSESSID=[REDACTED]"
           }
         },
         "Cufon": {
@@ -4428,19 +4456,22 @@
         "Nginx": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "nginx"
           }
         },
         "PHP": {
           "proof": {
             "source": "response_headers",
-            "matched": "PHPSESSID=dndc71f9uhoqu3qufk5o8fi07n; path=/"
+            "header": "Set-Cookie",
+            "matched": "PHPSESSID=[REDACTED]"
           }
         },
         "Plesk": {
           "proof": {
             "source": "response_headers",
-            "matched": "PHP/8.2.33, PleskLin"
+            "header": "X-Powered-By",
+            "matched": "PleskLin"
           }
         },
         "Google Font API": {
@@ -4514,37 +4545,37 @@
             "matched": "waypoints.min.js"
           }
         },
-        "WordPress Plugin: google-analytics-for-wordpress": {
+        "MonsterInsights": {
           "proof": {
             "source": "script tag",
             "url": "https://2ldm.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js"
           }
         },
-        "WordPress Theme: dt-the7": {
+        "The7": {
           "proof": {
             "source": "script tag",
             "url": "https://2ldm.com/wp-content/themes/dt-the7/js/above-the-fold.min.js"
           }
         },
-        "WordPress Plugin: Ultimate_VC_Addons": {
+        "Ultimate Addons for WPBakery Page Builder": {
           "proof": {
             "source": "script tag",
             "url": "https://2ldm.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/ultimate-params.min.js"
           }
         },
-        "WordPress Plugin: coblocks": {
+        "CoBlocks": {
           "proof": {
             "source": "script tag",
             "url": "https://2ldm.com/wp-content/plugins/coblocks/dist/js/coblocks-animation.js"
           }
         },
-        "WordPress Plugin: dt-the7-core": {
+        "The7 Elements": {
           "proof": {
             "source": "script tag",
             "url": "https://2ldm.com/wp-content/plugins/dt-the7-core/assets/js/post-type.min.js"
           }
         },
-        "WordPress Plugin: js_composer": {
+        "WPBakery Page Builder": {
           "proof": {
             "source": "script tag",
             "url": "https://2ldm.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js"
@@ -4558,13 +4589,15 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         },
         "PHP": {
           "proof": {
             "source": "response_headers",
-            "matched": "PHPSESSID=39i9kits265mpkcc2lgc0ss1gs; path=/"
+            "header": "Set-Cookie",
+            "matched": "PHPSESSID=[REDACTED]"
           }
         },
         "Google Analytics": {
@@ -4605,12 +4638,14 @@
         "LiteSpeed": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "LiteSpeed"
           }
         },
         "PHP": {
           "proof": {
             "source": "response_headers",
+            "header": "X-Powered-By",
             "matched": "PHP/8.2.30"
           }
         },
@@ -4662,37 +4697,31 @@
             "matched": "slick.min"
           }
         },
-        "WordPress Plugin: divi-pixel": {
+        "Divi Pixel": {
           "proof": {
             "source": "script tag",
             "url": "https://www.cei-expertises.fr/wp-content/plugins/divi-pixel/dist/public/js/public.min.js"
           }
         },
-        "WordPress Plugin: cookie-law-info": {
+        "CookieYes": {
           "proof": {
             "source": "script tag",
             "url": "https://www.cei-expertises.fr/wp-content/plugins/cookie-law-info/legacy/public/js/cookie-law-info-public.js"
           }
         },
-        "WordPress Plugin: wow-divi-carousel": {
+        "Wow Divi Carousel": {
           "proof": {
             "source": "script tag",
             "url": "https://www.cei-expertises.fr/wp-content/plugins/wow-divi-carousel/assets//js/frontend.js"
           }
         },
-        "WordPress Theme: Divi": {
+        "Divi": {
           "proof": {
             "source": "script tag",
             "url": "https://www.cei-expertises.fr/wp-content/themes/Divi/js/scripts.min.js"
           }
         },
-        "WordPress Theme: themeenfant-divi-child": {
-          "proof": {
-            "source": "link tag",
-            "url": "https://www.cei-expertises.fr/wp-content/themes/themeenfant-divi-child/style.css"
-          }
-        },
-        "WordPress Plugin: call-now-button": {
+        "Call Now Button": {
           "proof": {
             "source": "link tag",
             "url": "https://www.cei-expertises.fr/wp-content/plugins/call-now-button/resources/style/modern.css"
@@ -4706,6 +4735,7 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         },
@@ -4771,6 +4801,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -4824,6 +4855,7 @@
         "OpenResty": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "openresty/1.25.3.2"
           }
         }
@@ -4835,6 +4867,7 @@
         "Nginx": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "nginx"
           }
         },
@@ -4852,6 +4885,7 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         },
@@ -4893,6 +4927,7 @@
         "Nginx": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "nginx"
           }
         }
@@ -4904,6 +4939,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -4942,12 +4978,6 @@
             "source": "html",
             "matched": "prototype.hasOwnProperty.call(s,f))try{c.dataset[f]=s[f]}catch(e){}if(t&&c.addEventListener(\"load\",t),n&&c.addEventListener(\"error\",n),u)u.appendChild(c);else{if(!l)throw new Error(\"Did not find a head or body element to append the script\");l.appendChild(c)}}({src:S,async:!0,onload:C,onerror:e,sri:("
           }
-        },
-        "React": {
-          "proof": {
-            "source": "network_script",
-            "url": "https://unnames.com/cdn/shopifycloud/shop-js/modules/v2/chunk.preact-module_Cvpcobqs.esm.js"
-          }
         }
       }
     },
@@ -4957,6 +4987,7 @@
         "Nginx": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "nginx/1.28.1"
           }
         },
@@ -5040,6 +5071,7 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         }
@@ -5051,6 +5083,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -5114,28 +5147,22 @@
             "url": "https://maps.googleapis.com/maps/api/js"
           }
         },
-        "WordPress Plugin: modern-events-calendar": {
+        "Modern Events Calendar": {
           "proof": {
             "source": "script tag",
             "url": "https://3strandschurch.org/wp-content/plugins/modern-events-calendar/assets/js/jquery.typewatch.js"
           }
         },
-        "WordPress Theme: pro": {
+        "Pro": {
           "proof": {
             "source": "script tag",
             "url": "https://3strandschurch.org/wp-content/themes/pro/cornerstone/assets/js/site/cs-classic.7.8.12.js"
           }
         },
-        "WordPress Plugin: sermon-manager-pro": {
+        "Sermon Manager Pro": {
           "proof": {
             "source": "link tag",
             "url": "https://3strandschurch.org/wp-content/plugins/sermon-manager-pro/includes/shortcodes/gutenberg/sermons_blog/dist/blocks.style.build.css"
-          }
-        },
-        "WordPress Theme: pro-child": {
-          "proof": {
-            "source": "link tag",
-            "url": "https://3strandschurch.org/wp-content/themes/pro-child/style.css"
           }
         }
       }
@@ -5146,19 +5173,22 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
         "PHP": {
           "proof": {
             "source": "response_headers",
-            "matched": "PHP/8.3.33, PleskLin"
+            "header": "X-Powered-By",
+            "matched": "PHP/8.3.33"
           }
         },
         "Plesk": {
           "proof": {
             "source": "response_headers",
-            "matched": "PHP/8.3.33, PleskLin"
+            "header": "X-Powered-By",
+            "matched": "PleskLin"
           }
         },
         "WordPress": {
@@ -5191,13 +5221,13 @@
             "url": "https://cdn.trustedform.com/bootstrap.js"
           }
         },
-        "WordPress Theme: Divi": {
+        "Divi": {
           "proof": {
             "source": "script tag",
             "url": "https://www.alabamabuildingcontractor.com/wp-content/themes/Divi/js/scripts.min.js"
           }
         },
-        "WordPress Plugin: megamenu": {
+        "Max Mega Menu": {
           "proof": {
             "source": "script tag",
             "url": "https://www.alabamabuildingcontractor.com/wp-content/plugins/megamenu/js/maxmegamenu.js"
@@ -5211,6 +5241,7 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         },
@@ -5246,6 +5277,7 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         },
@@ -5309,25 +5341,25 @@
             "matched": "flexslider.js"
           }
         },
-        "WordPress Plugin: revslider": {
+        "Slider Revolution": {
           "proof": {
             "source": "script tag",
             "url": "https://www.skywardspeech.com.au/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js"
           }
         },
-        "WordPress Plugin: insta-gallery": {
+        "Social Feed Gallery": {
           "proof": {
             "source": "script tag",
             "url": "https://www.skywardspeech.com.au/wp-content/plugins/insta-gallery/assets/frontend/swiper/swiper.min.js"
           }
         },
-        "WordPress Plugin: fusion-builder": {
+        "Avada Builder": {
           "proof": {
             "source": "script tag",
             "url": "https://www.skywardspeech.com.au/wp-content/plugins/fusion-builder/assets/js/min/library/gsap.js"
           }
         },
-        "WordPress Theme: Avada": {
+        "Avada": {
           "proof": {
             "source": "script tag",
             "url": "https://www.skywardspeech.com.au/wp-content/themes/Avada/includes/lib/assets/min/js/general/awb-tabs-widget.js"
@@ -5341,13 +5373,15 @@
         "IIS": {
           "proof": {
             "source": "response_headers",
-            "matched": "Microsoft-IIS/8.0"
+            "header": "Server",
+            "matched": "IIS/8.0"
           }
         },
         "Microsoft ASP.NET": {
           "proof": {
             "source": "response_headers",
-            "matched": "ASP.NET_SessionId=fn0oftq5j4r2twdmnmnhr3pu; path=/; HttpOnly; SameSite=Lax"
+            "header": "Set-Cookie",
+            "matched": "ASP.NET_SessionId=[REDACTED]"
           }
         },
         "Google Font API": {
@@ -5394,6 +5428,7 @@
         "Nginx": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "nginx"
           }
         },
@@ -5459,6 +5494,7 @@
         "OpenResty": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "openresty"
           }
         }
@@ -5467,82 +5503,96 @@
     {
       "link": "phucankhanggroup.com",
       "technologies": {
-        "jQuery": {
+        "IIS": {
           "proof": {
-            "source": "network_script",
-            "url": "https://phucankhanggroup.com/JS/jquery.min.js"
+            "source": "response_headers",
+            "header": "Server",
+            "matched": "IIS/10.0"
           }
         },
-        "GSAP": {
+        "Microsoft ASP.NET": {
           "proof": {
-            "source": "network_script",
-            "url": "https://phucankhanggroup.com/JS/gsap/gsap.min.js"
-          }
-        },
-        "jsDelivr": {
-          "proof": {
-            "source": "network_script",
-            "url": "https://cdn.jsdelivr.net/npm/izitoast/dist/js/iziToast.min.js"
-          }
-        },
-        "iziToast": {
-          "proof": {
-            "source": "network_script",
-            "url": "https://cdn.jsdelivr.net/npm/izitoast/dist/js/iziToast.min.js"
+            "source": "response_headers",
+            "header": "Set-Cookie",
+            "matched": "ASP.NET_SessionId=[REDACTED]"
           }
         },
         "Google Analytics": {
           "proof": {
-            "source": "network_script",
-            "url": "https://www.googletagmanager.com/gtag/js"
-          }
-        },
-        "Facebook SDK": {
-          "proof": {
-            "source": "network_script",
-            "url": "https://connect.facebook.net/vi_VN/sdk.js"
-          }
-        },
-        "Flickity": {
-          "proof": {
-            "source": "network_script",
-            "url": "https://phucankhanggroup.com/assets/new-slide-lb/flickity.pkgd.min.js"
-          }
-        },
-        "Swiper": {
-          "proof": {
-            "source": "network_script",
-            "url": "https://phucankhanggroup.com/Styles/swiper/swiper-bundle.min.js"
-          }
-        },
-        "Fancybox": {
-          "proof": {
-            "source": "network_script",
-            "url": "https://phucankhanggroup.com/JS/jquery.fancybox.js"
+            "source": "html",
+            "matched": "googletagmanager.com/gtag/js?id=G-"
           }
         },
         "Modernizr": {
           "proof": {
-            "source": "network_script",
-            "url": "https://phucankhanggroup.com/GridGallery/js/modernizr.custom.js"
+            "source": "html",
+            "matched": "modernizr.custom.js"
           }
         },
-        "imagesLoaded": {
+        "jQuery": {
           "proof": {
-            "source": "network_script",
-            "url": "https://phucankhanggroup.com/GridGallery/js/imagesloaded.pkgd.min.js"
+            "source": "html",
+            "matched": "jquery.min.js"
           }
         },
-        "Masonry": {
+        "jsDelivr": {
           "proof": {
-            "source": "network_script",
-            "url": "https://phucankhanggroup.com/GridGallery/js/masonry.pkgd.min.js"
+            "source": "html",
+            "matched": "cdn.jsdelivr.net/"
+          }
+        },
+        "Facebook SDK": {
+          "proof": {
+            "source": "html",
+            "matched": "connect.facebook.net/vi_VN/sdk.js"
+          }
+        },
+        "Swiper": {
+          "proof": {
+            "source": "html",
+            "matched": "/swiper-bundle"
+          }
+        },
+        "GSAP": {
+          "proof": {
+            "source": "html",
+            "matched": "/gsap/"
           }
         },
         "Waypoints": {
           "proof": {
-            "source": "network_script",
-            "url": "https://phucankhanggroup.com/Lib/count/waypoints.min.js"
+            "source": "html",
+            "matched": "waypoints.min.js"
+          }
+        },
+        "Fancybox": {
+          "proof": {
+            "source": "html",
+            "matched": "jquery.fancybox"
+          }
+        },
+        "iziToast": {
+          "proof": {
+            "source": "html",
+            "matched": "izitoast"
+          }
+        },
+        "Flickity": {
+          "proof": {
+            "source": "html",
+            "matched": "flickity.pkgd.min.js"
+          }
+        },
+        "Masonry": {
+          "proof": {
+            "source": "html",
+            "matched": "masonry.pkgd"
+          }
+        },
+        "imagesLoaded": {
+          "proof": {
+            "source": "html",
+            "matched": "imagesloaded.pkgd"
           }
         },
         "Google Maps": {
@@ -5573,6 +5623,7 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache/2"
           }
         },
@@ -5602,6 +5653,7 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         },
@@ -5642,12 +5694,14 @@
         "LiteSpeed": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "LiteSpeed"
           }
         },
         "PHP": {
           "proof": {
             "source": "response_headers",
+            "header": "X-Powered-By",
             "matched": "PHP/7.2.34"
           }
         },
@@ -5665,7 +5719,7 @@
         "Javascript Infovis Toolkit": {
           "proof": {
             "source": "html",
-            "matched": "jItOGIwZC0xODM3NzFiNTdhNDAiLCJiaVRva2VuIjoiNTAyMzlhODMtZWM5MC0wZTNhLTExZjUtNzc1ZTdjZTlkZjU0Iiwic2l0ZU93bmVySWQiOiI4ZGFmZWUyYi05ZTU4LTQ2NzAtODI0OC01NTNhZTVkOTYyM2QiLCJjYWNoZSI6dHJ1ZSwic2NkIjoiMjAyMC0wOS0wMVQxOTozMTo0Mi4zNDlaIn0\"],\"4\":[\"141fbfae-511e-6817-c9f0-48993a7547d1\",\"n2EpcFGu5rD2-fgKV6ztxv7XQp"
+            "matched": "jItOGIwZC0xODM3NzFiNTdhNDAiLCJiaVRva2VuIjoiNTAyMzlhODMtZWM5MC0wZTNhLTExZjUtNzc1ZTdjZTlkZjU0Iiwic2l0ZU93bmVySWQiOiI4ZGFmZWUyYi05ZTU4LTQ2NzAtODI0OC01NTNhZTVkOTYyM2QiLCJjYWNoZSI6dHJ1ZSwic2NkIjoiMjAyMC0wOS0wMVQxOTozMTo0Mi4zNDlaIn0\"],\"4\":[\"141fbfae-511e-6817-c9f0-48993a7547d1\",\"ZfinbWnY1gDY6pnEZ7hQD7lmNR"
           }
         },
         "Lightbox": {
@@ -5771,6 +5825,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -5849,25 +5904,19 @@
         "Google AdSense": {
           "proof": {
             "source": "network_script",
-            "url": "https://pagead2.googlesyndication.com/pagead/js/r20260824/r20110914/abg_lite.js"
+            "url": "https://pagead2.googlesyndication.com/pagead/js/r20260825/r20110914/abg_lite.js"
           }
         },
-        "WordPress Theme: Divi": {
+        "Divi": {
           "proof": {
             "source": "script tag",
             "url": "https://3bsexcavating.com/wp-content/themes/Divi/js/scripts.min.js"
           }
         },
-        "WordPress Plugin: wp-smush-pro": {
+        "Smush Pro": {
           "proof": {
             "source": "script tag",
             "url": "https://3bsexcavating.com/wp-content/plugins/wp-smush-pro/app/assets/js/smush-lazy-load.min.js"
-          }
-        },
-        "WordPress Theme: divi-child": {
-          "proof": {
-            "source": "link tag",
-            "url": "https://3bsexcavating.com/wp-content/themes/divi-child/style.css"
           }
         }
       }
@@ -5878,12 +5927,13 @@
         "PHP": {
           "proof": {
             "source": "initial url",
-            "matched": "https://p2-1.afp24.net/true1.php?id=weis44j4dh3o49xk"
+            "matched": "https://p2-1.afp24.net/true1.php"
           }
         },
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         }
@@ -5895,6 +5945,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -5965,6 +6016,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -6028,19 +6080,22 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
-            "matched": "Apache/2.4.68 (Unix)"
+            "header": "Server",
+            "matched": "Apache/2.4.68"
           }
         },
         "PHP": {
           "proof": {
             "source": "response_headers",
+            "header": "X-Powered-By",
             "matched": "PHP/8.4.24"
           }
         },
         "UNIX": {
           "proof": {
             "source": "response_headers",
-            "matched": "Apache/2.4.68 (Unix)"
+            "header": "Server",
+            "matched": "Unix"
           }
         },
         "WordPress": {
@@ -6061,7 +6116,7 @@
             "matched": "jquery-migrate.min.js"
           }
         },
-        "WordPress Theme: catch-box": {
+        "Catch Box": {
           "proof": {
             "source": "script tag",
             "url": "https://buchhaltungsservice-koenig.de/wp-content/themes/catch-box/js/menu.min.js"
@@ -6126,76 +6181,70 @@
             "matched": "googletagmanager.com/gtag/js?id=G-"
           }
         },
-        "WordPress Plugin: elementor": {
+        "Elementor": {
           "proof": {
             "source": "script tag",
             "url": "https://www.solvos.nl/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js"
           }
         },
-        "WordPress Plugin: elementskit-lite": {
+        "ElementsKit": {
           "proof": {
             "source": "script tag",
             "url": "https://www.solvos.nl/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widget-scripts.js"
           }
         },
-        "WordPress Plugin: honeypot": {
+        "WP Armour": {
           "proof": {
             "source": "script tag",
             "url": "https://www.solvos.nl/wp-content/plugins/honeypot/includes/js/wpa.js"
           }
         },
-        "WordPress Theme: hello-elementor": {
+        "Hello Elementor": {
           "proof": {
             "source": "script tag",
             "url": "https://www.solvos.nl/wp-content/themes/hello-elementor/assets/js/hello-frontend.js"
           }
         },
-        "WordPress Plugin: elementor-pro": {
+        "Elementor Pro": {
           "proof": {
             "source": "script tag",
             "url": "https://www.solvos.nl/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js"
           }
         },
-        "WordPress Plugin: complianz-gdpr": {
+        "Complianz": {
           "proof": {
             "source": "script tag",
             "url": "https://www.solvos.nl/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js"
           }
         },
-        "WordPress Plugin: jet-elements": {
+        "JetElements": {
           "proof": {
             "source": "script tag",
             "url": "https://www.solvos.nl/wp-content/plugins/jet-elements/assets/js/lib/tweenjs/tweenjs.min.js"
           }
         },
-        "WordPress Plugin: jet-blocks": {
+        "JetBlocks": {
           "proof": {
             "source": "script tag",
             "url": "https://www.solvos.nl/wp-content/plugins/jet-blocks/assets/js/lib/jsticky/jquery.jsticky.min.js"
           }
         },
-        "WordPress Plugin: jet-tabs": {
+        "JetTabs": {
           "proof": {
             "source": "script tag",
             "url": "https://www.solvos.nl/wp-content/plugins/jet-tabs/assets/js/jet-tabs-frontend.min.js"
           }
         },
-        "WordPress Plugin: jet-engine": {
+        "JetEngine": {
           "proof": {
             "source": "link tag",
             "url": "https://www.solvos.nl/wp-content/plugins/jet-engine/assets/css/frontend.css"
           }
         },
-        "WordPress Plugin: jet-theme-core": {
+        "JetThemeCore": {
           "proof": {
             "source": "link tag",
             "url": "https://www.solvos.nl/wp-content/plugins/jet-theme-core/assets/css/frontend.css"
-          }
-        },
-        "WordPress Theme: hello-theme-child-master": {
-          "proof": {
-            "source": "link tag",
-            "url": "https://www.solvos.nl/wp-content/themes/hello-theme-child-master/style.css"
           }
         }
       }
@@ -6206,6 +6255,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -6239,7 +6289,7 @@
             "matched": "connect.facebook.net/en_US/sdk.js"
           }
         },
-        "WordPress Theme: forwardtrends-custom-theme-simple": {
+        "Forwardtrends Custom Theme Simple": {
           "proof": {
             "source": "script tag",
             "url": "https://www.261welfarefund.com/wp-content/themes/forwardtrends-custom-theme-simple/prettyphoto/js/jquery.prettyPhoto.js"
@@ -6261,6 +6311,7 @@
         "Nginx": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "nginx"
           }
         },
@@ -6318,22 +6369,16 @@
             "matched": "googletagmanager.com/gtag/js?id=AW-"
           }
         },
-        "WordPress Plugin: contact-form-7": {
+        "Contact Form 7": {
           "proof": {
             "source": "script tag",
             "url": "https://www.disinfestazioniepiscine.it/wp-content/plugins/contact-form-7/includes/swv/js/index.js"
           }
         },
-        "WordPress Theme: Zephyr": {
+        "Zephyr": {
           "proof": {
             "source": "script tag",
             "url": "https://www.disinfestazioniepiscine.it/wp-content/themes/Zephyr/common/js/base/passive-events.min.js"
-          }
-        },
-        "WordPress Theme: Zephyr-child": {
-          "proof": {
-            "source": "link tag",
-            "url": "https://www.disinfestazioniepiscine.it/wp-content/themes/Zephyr-child/style.css"
           }
         }
       }
@@ -6344,6 +6389,7 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         },
@@ -6395,55 +6441,55 @@
             "matched": "<link rel=\"stylesheet\" href=\"https://lscms.org/wp-content/plugins/elementor/assets/css/conditionals/lightbox.min.css"
           }
         },
-        "WordPress Plugin: burst-statistics": {
+        "Burst Statistics": {
           "proof": {
             "source": "script tag",
             "url": "https://lscms.org/wp-content/plugins/burst-statistics/assets/js/timeme/timeme.min.js"
           }
         },
-        "WordPress Plugin: wp-contact-form-7-spam-blocker": {
+        "Spam Protect for Contact Form 7": {
           "proof": {
             "source": "script tag",
             "url": "https://lscms.org/wp-content/plugins/wp-contact-form-7-spam-blocker/frontend/js/spam-protect-for-contact-form7.js"
           }
         },
-        "WordPress Plugin: essential-blocks": {
+        "Essential Blocks": {
           "proof": {
             "source": "script tag",
             "url": "https://lscms.org/wp-content/plugins/essential-blocks/assets/js/eb-blocks-localize.js"
           }
         },
-        "WordPress Plugin: contact-form-7": {
+        "Contact Form 7": {
           "proof": {
             "source": "script tag",
             "url": "https://lscms.org/wp-content/plugins/contact-form-7/includes/swv/js/index.js"
           }
         },
-        "WordPress Theme: modak": {
+        "Modak": {
           "proof": {
             "source": "script tag",
             "url": "https://lscms.org/wp-content/themes/modak/assets/js/bootstrap.bundle.min.js"
           }
         },
-        "WordPress Plugin: elementor": {
+        "Elementor": {
           "proof": {
             "source": "script tag",
             "url": "https://lscms.org/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js"
           }
         },
-        "WordPress Plugin: dtr-modak-elementor-addon": {
+        "Modak Elementor Addon": {
           "proof": {
             "source": "script tag",
             "url": "https://lscms.org/wp-content/plugins/dtr-modak-elementor-addon/assets/js/animated-headline.js"
           }
         },
-        "WordPress Plugin: essential-addons-for-elementor-lite": {
+        "Essential Addons for Elementor": {
           "proof": {
             "source": "script tag",
             "url": "https://lscms.org/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min.js"
           }
         },
-        "WordPress Plugin: paid-memberships-pro": {
+        "Paid Memberships Pro": {
           "proof": {
             "source": "link tag",
             "url": "https://lscms.org/wp-content/plugins/paid-memberships-pro/css/frontend/base.css"
@@ -6457,6 +6503,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -6496,19 +6543,19 @@
             "matched": "/swiper.min"
           }
         },
-        "WordPress Plugin: coblocks": {
+        "CoBlocks": {
           "proof": {
             "source": "script tag",
             "url": "https://3dwealthadvisory.com/wp-content/plugins/coblocks/dist/js/coblocks-animation.js"
           }
         },
-        "WordPress Theme: Divi": {
+        "Divi": {
           "proof": {
             "source": "script tag",
             "url": "https://3dwealthadvisory.com/wp-content/themes/Divi/js/scripts.min.js"
           }
         },
-        "WordPress Plugin: transition-slider-lite": {
+        "Transition Slider Lite": {
           "proof": {
             "source": "script tag",
             "url": "https://3dwealthadvisory.com/wp-content/plugins/transition-slider-lite/js/lib/three.min.js"
@@ -6526,6 +6573,7 @@
         "Nginx": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "nginx"
           }
         }
@@ -6537,6 +6585,7 @@
         "Nginx": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "nginx"
           }
         },
@@ -6577,6 +6626,7 @@
         "Nginx": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "nginx"
           }
         },
@@ -6672,7 +6722,8 @@
         "Drupal": {
           "proof": {
             "source": "response_headers",
-            "matched": "HIT"
+            "header": "X-Drupal-Cache",
+            "matched": ""
           }
         },
         "Font Awesome": {
@@ -6707,6 +6758,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -6777,12 +6829,14 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         },
         "PHP": {
           "proof": {
             "source": "response_headers",
+            "header": "X-Powered-By",
             "matched": "PHP/8.1"
           }
         },
@@ -6806,6 +6860,7 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         },
@@ -6851,25 +6906,25 @@
             "matched": "/waypoints/"
           }
         },
-        "WordPress Plugin: contact-form-7": {
+        "Contact Form 7": {
           "proof": {
             "source": "script tag",
             "url": "https://ferrateoxidant.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js"
           }
         },
-        "WordPress Theme: hello-elementor": {
+        "Hello Elementor": {
           "proof": {
             "source": "script tag",
             "url": "https://ferrateoxidant.com/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js"
           }
         },
-        "WordPress Plugin: elementor-pro": {
+        "Elementor Pro": {
           "proof": {
             "source": "script tag",
             "url": "https://ferrateoxidant.com/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js"
           }
         },
-        "WordPress Plugin: elementor": {
+        "Elementor": {
           "proof": {
             "source": "script tag",
             "url": "https://ferrateoxidant.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js"
@@ -6883,7 +6938,8 @@
         "Nginx": {
           "proof": {
             "source": "response_headers",
-            "matched": "nginx-rc"
+            "header": "Server",
+            "matched": "nginx"
           }
         },
         "Google Font API": {
@@ -6952,34 +7008,28 @@
             "matched": "waypoints.min.js"
           }
         },
-        "WordPress Plugin: widget-google-reviews": {
+        "Rich Showcase for Google Reviews": {
           "proof": {
             "source": "script tag",
             "url": "https://oakwell.vet/wp-content/plugins/widget-google-reviews/assets/6.9.10/js/public-main.js"
           }
         },
-        "WordPress Plugin: bb-plugin": {
+        "Beaver Builder": {
           "proof": {
             "source": "script tag",
             "url": "https://oakwell.vet/wp-content/plugins/bb-plugin/js/libs/jquery.imagesloaded.min.js"
           }
         },
-        "WordPress Theme: bb-theme": {
+        "Beaver Builder Theme": {
           "proof": {
             "source": "script tag",
             "url": "https://oakwell.vet/wp-content/themes/bb-theme/js/theme.min.js"
           }
         },
-        "WordPress Plugin: formidable": {
+        "Formidable Forms": {
           "proof": {
             "source": "link tag",
             "url": "https://oakwell.vet/wp-content/plugins/formidable/css/formidableforms.css"
-          }
-        },
-        "WordPress Theme: bb-theme-child": {
-          "proof": {
-            "source": "link tag",
-            "url": "https://oakwell.vet/wp-content/themes/bb-theme-child/style.css"
           }
         }
       }
@@ -6990,6 +7040,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -7071,49 +7122,49 @@
             "matched": "slick.min"
           }
         },
-        "WordPress Plugin: revslider": {
+        "Slider Revolution": {
           "proof": {
             "source": "script tag",
             "url": "https://mysterion.hr/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js"
           }
         },
-        "WordPress Plugin: wp-user-avatar": {
+        "ProfilePress": {
           "proof": {
             "source": "script tag",
             "url": "https://mysterion.hr/wp-content/plugins/wp-user-avatar/assets/flatpickr/flatpickr.min.js"
           }
         },
-        "WordPress Plugin: contact-form-7": {
+        "Contact Form 7": {
           "proof": {
             "source": "script tag",
             "url": "https://mysterion.hr/wp-content/plugins/contact-form-7/includes/js/scripts.js"
           }
         },
-        "WordPress Theme: cinderella": {
+        "Cinderella": {
           "proof": {
             "source": "script tag",
             "url": "https://mysterion.hr/wp-content/themes/cinderella/assets/js/bootstrap.min.js"
           }
         },
-        "WordPress Plugin: wp-gdpr-compliance": {
+        "WP GDPR Compliance": {
           "proof": {
             "source": "script tag",
             "url": "https://mysterion.hr/wp-content/plugins/wp-gdpr-compliance/assets/js/front.min.js"
           }
         },
-        "WordPress Plugin: js_composer": {
+        "WPBakery Page Builder": {
           "proof": {
             "source": "script tag",
             "url": "https://mysterion.hr/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js"
           }
         },
-        "WordPress Plugin: instagram-feed": {
+        "Smash Balloon Social Photo Feed": {
           "proof": {
             "source": "script tag",
             "url": "https://mysterion.hr/wp-content/plugins/instagram-feed/js/sbi-scripts.min.js"
           }
         },
-        "WordPress Plugin: mailchimp-for-wp": {
+        "MC4WP": {
           "proof": {
             "source": "script tag",
             "url": "https://mysterion.hr/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js"
@@ -7131,6 +7182,7 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         },
@@ -7177,6 +7229,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         }
@@ -7188,12 +7241,13 @@
         "PHP": {
           "proof": {
             "source": "initial url",
-            "matched": "https://portal.mymarylandauto.com/site/wp-login.php?redirect_to=https%3A%2F%2Fportal.mymarylandauto.com%2Fsite"
+            "matched": "https://portal.mymarylandauto.com/site/wp-login.php"
           }
         },
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache/2.4.37"
           }
         },
@@ -7221,7 +7275,7 @@
             "matched": "jquery-migrate.min.js"
           }
         },
-        "WordPress Theme: MAIProducer": {
+        "Maiproducer": {
           "proof": {
             "source": "network request",
             "url": "https://portal.mymarylandauto.com/site/wp-content/themes/MAIProducer/assets/img/logo.png"
@@ -7235,6 +7289,7 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         }
@@ -7254,19 +7309,22 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         },
         "PHP": {
           "proof": {
             "source": "response_headers",
+            "header": "X-Powered-By",
             "matched": "PHP/8.5.9"
           }
         },
         "Varnish": {
           "proof": {
             "source": "response_headers",
-            "matched": "1.1 webcache1 (Varnish/trunk)"
+            "header": "Via",
+            "matched": "1.1 webcache1 (Varnish"
           }
         },
         "Font Awesome": {
@@ -7323,25 +7381,25 @@
             "matched": "jquery-migrate.min.js"
           }
         },
-        "WordPress Plugin: essential-widgets": {
+        "Essential Widgets": {
           "proof": {
             "source": "script tag",
             "url": "https://www.dorpsbelangen.nu/wp-content/plugins/essential-widgets/public/js/essential-widgets-public.js"
           }
         },
-        "WordPress Plugin: contact-form-7": {
+        "Contact Form 7": {
           "proof": {
             "source": "script tag",
             "url": "https://www.dorpsbelangen.nu/wp-content/plugins/contact-form-7/includes/swv/js/index.js"
           }
         },
-        "WordPress Theme: signify-pro": {
+        "Signify Pro": {
           "proof": {
             "source": "script tag",
             "url": "https://www.dorpsbelangen.nu/wp-content/themes/signify-pro/js/skip-link-focus-fix.min.js"
           }
         },
-        "WordPress Plugin: countdown-builder": {
+        "Countdown Builder": {
           "proof": {
             "source": "script tag",
             "url": "https://www.dorpsbelangen.nu/wp-content/plugins/countdown-builder/assets/js/YcdGeneral.js"
@@ -7356,10 +7414,32 @@
     {
       "link": "evelynanders.com",
       "technologies": {
+        "Apache": {
+          "proof": {
+            "source": "response_headers",
+            "header": "Server",
+            "matched": "Apache/2.4.68"
+          }
+        },
+        "PHP": {
+          "proof": {
+            "source": "response_headers",
+            "header": "X-Powered-By",
+            "matched": "PHP/7.4.33"
+          }
+        },
+        "UNIX": {
+          "proof": {
+            "source": "response_headers",
+            "header": "Server",
+            "matched": "Unix"
+          }
+        },
         "Varnish": {
           "proof": {
             "source": "response_headers",
-            "matched": "1.1 ip-172-31-105-253 (Varnish/7.5)"
+            "header": "Via",
+            "matched": "1.1 ip-172-31-105-253 (Varnish"
           }
         }
       }
@@ -7416,6 +7496,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -7516,6 +7597,7 @@
         "Nginx": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "nginx"
           }
         },
@@ -7545,6 +7627,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -7622,6 +7705,7 @@
         "Nginx": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "nginx"
           }
         },
@@ -7661,19 +7745,19 @@
             "matched": "jquery-core-js\" src=\"https://powercleaning.services/wp-includes/js/jquery/jquery.min.js"
           }
         },
-        "WordPress Theme: powercleaning": {
+        "Powercleaning": {
           "proof": {
             "source": "link tag",
             "url": "https://powercleaning.services/wp-content/themes/powercleaning/img/favicon-32x32.png"
           }
         },
-        "WordPress Plugin: responsive-lightbox": {
+        "Responsive Lightbox & Gallery": {
           "proof": {
             "source": "link tag",
             "url": "https://powercleaning.services/wp-content/plugins/responsive-lightbox/assets/swipebox/swipebox.min.css"
           }
         },
-        "WordPress Theme: PCMIS": {
+        "Pcmis": {
           "proof": {
             "source": "network request",
             "url": "https://powercleaning.services/wp-content/themes/PCMIS/img/column-art.svg"
@@ -7687,6 +7771,7 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache/2"
           }
         },
@@ -7720,6 +7805,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -7779,7 +7865,8 @@
         "Akamai": {
           "proof": {
             "source": "response_headers",
-            "matched": "9 8719 0 pmb=mRUM,2"
+            "header": "X-Akamai-Transformed",
+            "matched": ""
           }
         },
         "Font Awesome": {
@@ -7820,6 +7907,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -7925,61 +8013,55 @@
             "url": "https://www.google.com/recaptcha/api.js"
           }
         },
-        "WordPress Plugin: woocommerce": {
-          "proof": {
-            "source": "script tag",
-            "url": "https://hoffmaninstitute.co.uk/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js"
-          }
-        },
-        "WordPress Plugin: bookly-responsive-appointment-booking-tool": {
+        "Bookly": {
           "proof": {
             "source": "script tag",
             "url": "https://hoffmaninstitute.co.uk/wp-content/plugins/bookly-responsive-appointment-booking-tool/frontend/resources/js/spin.min.js"
           }
         },
-        "WordPress Plugin: bookly-addon-pro": {
+        "Bookly Pro": {
           "proof": {
             "source": "script tag",
             "url": "https://hoffmaninstitute.co.uk/wp-content/plugins/bookly-addon-pro/frontend/modules/customer_profile/resources/js/customer-profile.js"
           }
         },
-        "WordPress Theme: polaris-fw": {
+        "Polaris Fw": {
           "proof": {
             "source": "script tag",
             "url": "https://hoffmaninstitute.co.uk/wp-content/themes/polaris-fw/javascripts/js-kick-starter/js-kick-starter-min.js"
           }
         },
-        "WordPress Theme: hoffman-institute": {
+        "Hoffman Institute": {
           "proof": {
             "source": "script tag",
             "url": "https://hoffmaninstitute.co.uk/wp-content/themes/hoffman-institute/child-javascripts/child-custom/child-custom-js-min.js"
           }
         },
-        "WordPress Plugin: product-open-pricing-name-your-price-for-woocommerce": {
+        "Product Open Pricing for WooCommerce": {
           "proof": {
             "source": "script tag",
             "url": "https://hoffmaninstitute.co.uk/wp-content/plugins/product-open-pricing-name-your-price-for-woocommerce/includes/js/alg-wc-pop-frontend.js"
           }
         },
-        "WordPress Plugin: quick-pagepost-redirect-plugin": {
+        "Quick Pagepost Redirect Plugin": {
           "proof": {
             "source": "script tag",
             "url": "https://hoffmaninstitute.co.uk/wp-content/plugins/quick-pagepost-redirect-plugin/js/qppr_frontend_script.min.js"
           }
         },
-        "WordPress Plugin: yith-woocommerce-advanced-product-options-premium": {
+        "YITH WooCommerce Advanced Product Options Premium": {
           "proof": {
             "source": "script tag",
             "url": "https://hoffmaninstitute.co.uk/wp-content/plugins/yith-woocommerce-advanced-product-options-premium/assets/js/front.min.js"
           }
         },
-        "WordPress Plugin: woocommerce-pdf-invoice": {
+        "WooCommerce PDF Invoices": {
           "proof": {
             "source": "link tag",
             "url": "https://hoffmaninstitute.co.uk/wp-content/plugins/woocommerce-pdf-invoice/assets/css/woocommerce-pdf-frontend-css.css"
           }
         },
-        "WordPress Plugin: sage-pay-server-woocommerce-premium": {
+        "Sage Pay Server Woocommerce Premium": {
           "proof": {
             "source": "link tag",
             "url": "https://hoffmaninstitute.co.uk/wp-content/plugins/sage-pay-server-woocommerce-premium/inc/css/checkout.css"
@@ -7993,6 +8075,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -8070,6 +8153,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -8087,6 +8171,7 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         },
@@ -8150,31 +8235,31 @@
             "url": "https://maps.googleapis.com/maps/api/js"
           }
         },
-        "WordPress Plugin: dmm-consent-guard": {
+        "DMM Consent Guard": {
           "proof": {
             "source": "script tag",
             "url": "https://nicholsonchiro.com/wp-content/plugins/dmm-consent-guard/assets/lib/jquery-1.12.4.min.js"
           }
         },
-        "WordPress Theme: mts_schema": {
+        "Schema": {
           "proof": {
             "source": "script tag",
             "url": "https://nicholsonchiro.com/wp-content/themes/mts_schema/js/customscript.js"
           }
         },
-        "WordPress Theme: arrow-schema-child": {
+        "Arrow Schema Child": {
           "proof": {
             "source": "script tag",
             "url": "https://nicholsonchiro.com/wp-content/themes/arrow-schema-child/assets/wow.js"
           }
         },
-        "WordPress Plugin: gravityformsrecaptcha": {
+        "Gravity Forms reCAPTCHA Add-On": {
           "proof": {
             "source": "script tag",
             "url": "https://nicholsonchiro.com/wp-content/plugins/gravityformsrecaptcha/js/frontend.min.js"
           }
         },
-        "WordPress Plugin: gravityforms": {
+        "Gravity Forms": {
           "proof": {
             "source": "script tag",
             "url": "https://nicholsonchiro.com/wp-content/plugins/gravityforms/js/jquery.json.min.js"
@@ -8188,6 +8273,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         }
@@ -8199,6 +8285,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -8321,13 +8408,13 @@
             "matched": "jquery-migrate.min.js"
           }
         },
-        "WordPress Theme: zerif-lite": {
+        "Zerif Lite": {
           "proof": {
             "source": "script tag",
             "url": "https://xn--jobvrkstedet-9cb.nu/wp-content/themes/zerif-lite/js/bootstrap.min.js"
           }
         },
-        "WordPress Plugin: testimonials-widget": {
+        "Testimonials Widget": {
           "proof": {
             "source": "link tag",
             "url": "https://xn--jobvrkstedet-9cb.nu/wp-content/plugins/testimonials-widget/includes/libraries/bxslider-4/dist/jquery.bxslider.css"
@@ -8338,6 +8425,12 @@
     {
       "link": "appelpsychotherapy.com",
       "technologies": {
+        "Javascript Infovis Toolkit": {
+          "proof": {
+            "source": "html",
+            "matched": "jItN2E3YjQyZGE4YTY5IiwiYXBwRGVmSWQiOiIxM2VlOTRjMS1iNjM1LTg1MDUtMzM5MS05NzkxOTA1MmMxNmYiLCJtZXRhU2l0ZUlkIjoiNTQ0MGE3ZGEtNjQzOS00NzUxLTllMTgtYWVkOGMzOWIyZWI3Iiwic2lnbkRhdGUiOiIyMDI2LTA4LTI3VDIxOjAwOjQxLjE1N1oiLCJkZW1vTW9kZSI6ZmFsc2UsIm9yaWdpbkluc3RhbmNlSWQiOiI2ZDJmMWU5MC1iODYyLTQ2YTctYTRlOS1mNDIzY2NmM"
+          }
+        },
         "Lightbox": {
           "proof": {
             "source": "html",
@@ -8422,6 +8515,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -8487,19 +8581,22 @@
         "IIS": {
           "proof": {
             "source": "response_headers",
-            "matched": "Microsoft-IIS/10.0"
+            "header": "Server",
+            "matched": "IIS/10.0"
           }
         },
         "Microsoft ASP.NET": {
           "proof": {
             "source": "response_headers",
-            "matched": "ASPSESSIONIDQUGDGTHC=OHKHJPOCGBMEKKGMEMEONINB; secure; path=/"
+            "header": "Set-Cookie",
+            "matched": "ASPSESSION=[REDACTED]"
           }
         },
         "Plesk": {
           "proof": {
             "source": "response_headers",
-            "matched": "PleskWin"
+            "header": "X-Powered-By-Plesk",
+            "matched": "Plesk"
           }
         }
       }
@@ -8510,6 +8607,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -8581,6 +8679,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         }
@@ -8592,6 +8691,7 @@
         "LiteSpeed": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "LiteSpeed"
           }
         },
@@ -8609,12 +8709,14 @@
         "LiteSpeed": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "LiteSpeed"
           }
         },
         "PHP": {
           "proof": {
             "source": "response_headers",
+            "header": "X-Powered-By",
             "matched": "PHP/8.1.34"
           }
         },
@@ -8690,61 +8792,61 @@
             "matched": "jquery-migrate.js"
           }
         },
-        "WordPress Plugin: google-analytics-for-wordpress": {
+        "MonsterInsights": {
           "proof": {
             "source": "script tag",
             "url": "https://www.fluxar.com.ar/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.js"
           }
         },
-        "WordPress Plugin: so-widgets-bundle": {
+        "SiteOrigin Widgets Bundle": {
           "proof": {
             "source": "script tag",
             "url": "https://www.fluxar.com.ar/wp-content/plugins/so-widgets-bundle/js/jquery.cycle.min.js"
           }
         },
-        "WordPress Plugin: soundy-background-music": {
+        "Soundy Background Music": {
           "proof": {
             "source": "script tag",
             "url": "https://www.fluxar.com.ar/wp-content/plugins/soundy-background-music/js/front-end.js"
           }
         },
-        "WordPress Theme: TESSERACT": {
+        "Tesseract": {
           "proof": {
             "source": "script tag",
             "url": "https://www.fluxar.com.ar/wp-content/themes/TESSERACT/js/modernizr.custom.min.js"
           }
         },
-        "WordPress Plugin: all-in-one-seo-pack": {
+        "All in One SEO": {
           "proof": {
             "source": "script tag",
             "url": "https://www.fluxar.com.ar/wp-content/plugins/all-in-one-seo-pack/dist/Lite/assets/table-of-contents.95d0dfce.js"
           }
         },
-        "WordPress Plugin: contact-form-7": {
+        "Contact Form 7": {
           "proof": {
             "source": "script tag",
             "url": "https://www.fluxar.com.ar/wp-content/plugins/contact-form-7/includes/swv/js/index.js"
           }
         },
-        "WordPress Plugin: mystickymenu": {
+        "My Sticky Bar": {
           "proof": {
             "source": "script tag",
             "url": "https://www.fluxar.com.ar/wp-content/plugins/mystickymenu/js/morphext/morphext.min.js"
           }
         },
-        "WordPress Plugin: popups": {
+        "Popups": {
           "proof": {
             "source": "script tag",
             "url": "https://www.fluxar.com.ar/wp-content/plugins/popups/public/assets/js/public.js"
           }
         },
-        "WordPress Plugin: lightbox-plus": {
+        "Lightbox Plus": {
           "proof": {
             "source": "script tag",
             "url": "https://www.fluxar.com.ar/wp-content/plugins/lightbox-plus/js/jquery.colorbox.1.5.9-min.js"
           }
         },
-        "WordPress Plugin: siteorigin-panels": {
+        "Page Builder by SiteOrigin": {
           "proof": {
             "source": "script tag",
             "url": "https://www.fluxar.com.ar/wp-content/plugins/siteorigin-panels/js/styling.min.js"
@@ -8787,6 +8889,7 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         },
@@ -8814,19 +8917,19 @@
             "matched": "jquery-migrate.min.js"
           }
         },
-        "WordPress Theme: parabola": {
+        "Parabola": {
           "proof": {
             "source": "script tag",
             "url": "https://bata.edu.hu/wp-content/themes/parabola/js/frontend.js"
           }
         },
-        "WordPress Plugin: wp-accessibility": {
+        "WP Accessibility": {
           "proof": {
             "source": "script tag",
             "url": "https://bata.edu.hu/wp-content/plugins/wp-accessibility/js/wpa-toolbar.min.js"
           }
         },
-        "WordPress Plugin: album-and-image-gallery-plus-lightbox": {
+        "Album and Image Gallery Plus Lightbox": {
           "proof": {
             "source": "link tag",
             "url": "https://bata.edu.hu/wp-content/plugins/album-and-image-gallery-plus-lightbox/assets/css/magnific-popup.css"
@@ -8840,6 +8943,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         }
@@ -8851,6 +8955,7 @@
         "Nginx": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "nginx"
           }
         },
@@ -8924,13 +9029,15 @@
         "OpenResty": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "openresty"
           }
         },
         "Varnish": {
           "proof": {
             "source": "response_headers",
-            "matched": "1.1 varnish2 (Varnish/7.4)"
+            "header": "Via",
+            "matched": "1.1 varnish2 (Varnish"
           }
         },
         "Google Analytics": {
@@ -8953,6 +9060,7 @@
         "Nginx": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "nginx"
           }
         }
@@ -8964,13 +9072,14 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache/2"
           }
         },
         "W3 Total Cache": {
           "proof": {
             "source": "html",
-            "matched": "<!--\r\nPerformance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/?utm_source=w3tc&utm_medium=footer_comment&utm_campaign=free_plugin\r\n\r\nObject Caching 175/765 objects using Memcached\r\nPage Caching using Disk: Enhanced \r\nMinified using Memcached\r\nDatabase Caching 37/"
+            "matched": "<!--\r\nPerformance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/?utm_source=w3tc&utm_medium=footer_comment&utm_campaign=free_plugin\r\n\r\nObject Caching 186/574 objects using Memcached\r\nPage Caching using Disk: Enhanced \r\nMinified using Memcached\r\nDatabase Caching 37/"
           }
         },
         "WooCommerce": {
@@ -9051,49 +9160,43 @@
             "matched": "magnific-popup.js"
           }
         },
-        "WordPress Plugin: webtoffee-gdpr-cookie-consent": {
+        "WebToffee GDPR Cookie Consent": {
           "proof": {
             "source": "script tag",
             "url": "https://www.koniczynka.info.pl/wp-content/plugins/webtoffee-gdpr-cookie-consent/public/js/cookie-law-info-public.js"
           }
         },
-        "WordPress Plugin: woocommerce": {
-          "proof": {
-            "source": "script tag",
-            "url": "https://www.koniczynka.info.pl/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js"
-          }
-        },
-        "WordPress Plugin: dg-divi-carousel": {
+        "Divi Carousel": {
           "proof": {
             "source": "script tag",
             "url": "https://www.koniczynka.info.pl/wp-content/plugins/dg-divi-carousel/scripts/swiper.min.js"
           }
         },
-        "WordPress Plugin: advanced-woo-search": {
+        "Advanced Woo Search": {
           "proof": {
             "source": "script tag",
             "url": "https://www.koniczynka.info.pl/wp-content/plugins/advanced-woo-search/assets/js/common.min.js"
           }
         },
-        "WordPress Theme: Divi": {
+        "Divi": {
           "proof": {
             "source": "script tag",
             "url": "https://www.koniczynka.info.pl/wp-content/themes/Divi/js/scripts.min.js"
           }
         },
-        "WordPress Plugin: popup-maker": {
+        "Popup Maker": {
           "proof": {
             "source": "link tag",
             "url": "https://www.koniczynka.info.pl/wp-content/plugins/popup-maker/dist/packages/block-library-style.css"
           }
         },
-        "WordPress Plugin: woocommerce-product-image-flipper": {
+        "WooCommerce Product Image Flipper": {
           "proof": {
             "source": "link tag",
             "url": "https://www.koniczynka.info.pl/wp-content/plugins/woocommerce-product-image-flipper/assets/css/style.css"
           }
         },
-        "WordPress Theme: koniczynka": {
+        "Koniczynka": {
           "proof": {
             "source": "link tag",
             "url": "https://www.koniczynka.info.pl/wp-content/themes/koniczynka/my-style.css"
@@ -9107,13 +9210,15 @@
         "Akamai": {
           "proof": {
             "source": "response_headers",
-            "matched": "9 260391 0 pmb=mRUM,2"
+            "header": "X-Akamai-Transformed",
+            "matched": ""
           }
         },
         "IIS": {
           "proof": {
             "source": "response_headers",
-            "matched": "Microsoft-IIS/10.0"
+            "header": "Server",
+            "matched": "IIS/10.0"
           }
         },
         "Font Awesome": {
@@ -9190,6 +9295,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -9199,34 +9305,28 @@
             "matched": "<link rel='stylesheet' id='formidable-css' href='https://2agateway.com/wp-content"
           }
         },
-        "WordPress Theme: bricks": {
+        "Bricks": {
           "proof": {
             "source": "script tag",
             "url": "https://2agateway.com/wp-content/themes/bricks/assets/js/bricks.min.js"
           }
         },
-        "WordPress Plugin: max-addons-pro-bricks": {
+        "Max Addons Pro Bricks": {
           "proof": {
             "source": "script tag",
             "url": "https://2agateway.com/wp-content/plugins/max-addons-pro-bricks/assets/js/frontend.min.js"
           }
         },
-        "WordPress Plugin: bricksextras": {
+        "BricksExtras": {
           "proof": {
             "source": "script tag",
             "url": "https://2agateway.com/wp-content/plugins/bricksextras/components/assets/js/parallax.js"
           }
         },
-        "WordPress Plugin: formidable": {
+        "Formidable Forms": {
           "proof": {
             "source": "link tag",
             "url": "https://2agateway.com/wp-content/plugins/formidable/css/formidableforms.css"
-          }
-        },
-        "WordPress Theme: bricks-child": {
-          "proof": {
-            "source": "link tag",
-            "url": "https://2agateway.com/wp-content/themes/bricks-child/style.css"
           }
         }
       }
@@ -9312,13 +9412,13 @@
             "matched": "isotope.pkgd"
           }
         },
-        "WordPress Theme: construction-light": {
+        "Construction Light": {
           "proof": {
             "source": "script tag",
             "url": "https://ledestjernenstu.dk/wp-content/themes/construction-light/assets/js/wow.js"
           }
         },
-        "WordPress Plugin: contact-form-7": {
+        "Contact Form 7": {
           "proof": {
             "source": "script tag",
             "url": "https://ledestjernenstu.dk/wp-content/plugins/contact-form-7/includes/swv/js/index.js"
@@ -9332,6 +9432,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -9349,6 +9450,7 @@
         "Nginx": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "nginx"
           }
         },
@@ -9406,55 +9508,55 @@
             "url": "https://maps.googleapis.com/maps/api/js"
           }
         },
-        "WordPress Plugin: auto-terms-of-service-and-privacy-policy": {
+        "TermsFeed AutoTerms": {
           "proof": {
             "source": "script tag",
             "url": "https://tamcconstruction.net/wp-content/plugins/auto-terms-of-service-and-privacy-policy/js/base.js"
           }
         },
-        "WordPress Plugin: breeze": {
+        "Breeze Cache": {
           "proof": {
             "source": "script tag",
             "url": "https://tamcconstruction.net/wp-content/plugins/breeze/assets/js/js-front-end/breeze-prefetch-links.min.js"
           }
         },
-        "WordPress Plugin: contact-form-7": {
+        "Contact Form 7": {
           "proof": {
             "source": "script tag",
             "url": "https://tamcconstruction.net/wp-content/plugins/contact-form-7/includes/swv/js/index.js"
           }
         },
-        "WordPress Plugin: contact-form-7-honeypot": {
+        "CF7 Apps": {
           "proof": {
             "source": "script tag",
             "url": "https://tamcconstruction.net/wp-content/plugins/contact-form-7-honeypot/legacy-honeypot/includes/js/honeypot-refill.js"
           }
         },
-        "WordPress Plugin: wpcf7-redirect": {
+        "Redirection for Contact Form 7": {
           "proof": {
             "source": "script tag",
             "url": "https://tamcconstruction.net/wp-content/plugins/wpcf7-redirect/build/assets/frontend-script.js"
           }
         },
-        "WordPress Theme: twentytwentyone": {
+        "Twenty Twenty-One": {
           "proof": {
             "source": "script tag",
             "url": "https://tamcconstruction.net/wp-content/themes/twentytwentyone/assets/js/responsive-embeds.js"
           }
         },
-        "WordPress Plugin: brizy": {
+        "Brizy": {
           "proof": {
             "source": "script tag",
             "url": "https://tamcconstruction.net/wp-content/plugins/brizy/public/editor-build/prod/editor/js/group-jq.min.js"
           }
         },
-        "WordPress Plugin: brizy-pro": {
+        "Brizy Pro": {
           "proof": {
             "source": "script tag",
             "url": "https://tamcconstruction.net/wp-content/plugins/brizy-pro/public/editor-build/prod/js/group-1_2.pro.min.js"
           }
         },
-        "WordPress Plugin: jetpack": {
+        "Jetpack": {
           "proof": {
             "source": "link tag",
             "url": "https://tamcconstruction.net/wp-content/plugins/jetpack/modules/theme-tools/compat/twentytwentyone.css"
@@ -9468,6 +9570,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -9493,7 +9596,57 @@
     },
     {
       "link": "herbalwise.ie",
-      "technologies": {}
+      "technologies": {
+        "CloudFlare": {
+          "proof": {
+            "source": "response_headers",
+            "header": "Server",
+            "matched": "cloudflare"
+          }
+        },
+        "Twitter Bootstrap": {
+          "proof": {
+            "source": "html",
+            "matched": "<div class=\"g-col-12 g-col-md-12"
+          }
+        },
+        "PayPal": {
+          "proof": {
+            "source": "html",
+            "matched": "paypal.com/"
+          }
+        },
+        "Prototype": {
+          "proof": {
+            "source": "html",
+            "matched": "prototype[t].apply(e,s);return window.dispatchEvent(new CustomEvent(\"scriptLoaded\")),i}:e[t],set:(e,t,s)=>(e[t]=s,!0)};this.scripts=new Proxy(this.scriptsPrivat,e)}isScriptLoaded(e){return-1!==this.scriptsPrivat.indexOf(e)}isScriptLoadedArray(e){return!e.some((e=>!this.isScriptLoaded(e)))}executeWhe"
+          }
+        },
+        "RequireJS": {
+          "proof": {
+            "source": "html",
+            "matched": "requiredNames:t})}processStyleReadyCallbacks(){this.logStylesData(),this.styleCallbacks=this.styleCallbacks.filter((({callback:e,requiredNames:t})=>!(0===t.length?this.stylesLoading.every((e=>e.loaded)):t.every((e=>this.stylesLoading.some((t=>t.name===e&&t.loaded)))))||(e(),!1)))}}window.scriptContr"
+          }
+        },
+        "Shopify": {
+          "proof": {
+            "source": "html",
+            "matched": "cdn.shopify.com"
+          }
+        },
+        "Zotabox": {
+          "proof": {
+            "source": "html",
+            "matched": "static2.zotabox.com/"
+          }
+        },
+        "Google Analytics": {
+          "proof": {
+            "source": "network_script",
+            "url": "https://www.googletagmanager.com/gtag/js"
+          }
+        }
+      }
     },
     {
       "link": "deepseass.com",
@@ -9501,12 +9654,14 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         },
         "PHP": {
           "proof": {
             "source": "response_headers",
+            "header": "X-Powered-By",
             "matched": "PHP/8.2"
           }
         },
@@ -9558,25 +9713,25 @@
             "matched": "google.com/recaptcha/"
           }
         },
-        "WordPress Plugin: so-widgets-bundle": {
+        "SiteOrigin Widgets Bundle": {
           "proof": {
             "source": "script tag",
             "url": "https://www.deepseass.com/wp-content/plugins/so-widgets-bundle/js/jquery.cycle.min.js"
           }
         },
-        "WordPress Theme: twentyseventeen": {
+        "Twenty Seventeen": {
           "proof": {
             "source": "script tag",
             "url": "https://www.deepseass.com/wp-content/themes/twentyseventeen/assets/js/global.js"
           }
         },
-        "WordPress Plugin: contact-form-7": {
+        "Contact Form 7": {
           "proof": {
             "source": "script tag",
             "url": "https://www.deepseass.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js"
           }
         },
-        "WordPress Plugin: siteorigin-panels": {
+        "Page Builder by SiteOrigin": {
           "proof": {
             "source": "script tag",
             "url": "https://www.deepseass.com/wp-content/plugins/siteorigin-panels/js/styling.min.js"
@@ -9682,6 +9837,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -9699,12 +9855,14 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         },
         "PHP": {
           "proof": {
             "source": "response_headers",
+            "header": "X-Powered-By",
             "matched": "PHP/7.3.33"
           }
         },
@@ -9756,13 +9914,13 @@
             "matched": "/wow.min"
           }
         },
-        "WordPress Plugin: contact-form-7": {
+        "Contact Form 7": {
           "proof": {
             "source": "script tag",
             "url": "https://shapirolawfirm.com/wp-content/plugins/contact-form-7/includes/js/scripts.js"
           }
         },
-        "WordPress Theme: carina": {
+        "Carina": {
           "proof": {
             "source": "script tag",
             "url": "https://shapirolawfirm.com/wp-content/themes/carina/resources/js/carina-main.js"
@@ -9780,6 +9938,7 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         },
@@ -9824,7 +9983,7 @@
             "matched": "jquery-migrate.min.js"
           }
         },
-        "WordPress Plugin: maintenance": {
+        "Maintenance": {
           "proof": {
             "source": "script tag",
             "url": "https://www.sindacatobadanti.it/wp-content/plugins/maintenance/load/js/jquery.frontend.js"
@@ -9842,6 +10001,7 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         },
@@ -9941,37 +10101,31 @@
             "matched": "isotope.pkgd"
           }
         },
-        "WordPress Plugin: wp-rocket": {
-          "proof": {
-            "source": "script tag",
-            "url": "https://lighthouseprc.org/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"
-          }
-        },
-        "WordPress Plugin: loomisoft-button-widget": {
+        "Loomisoft Button Widget": {
           "proof": {
             "source": "link tag",
             "url": "https://lighthouseprc.org/wp-content/plugins/loomisoft-button-widget/css/style.css"
           }
         },
-        "WordPress Plugin: widget-options": {
+        "Widget Options": {
           "proof": {
             "source": "link tag",
             "url": "https://lighthouseprc.org/wp-content/plugins/widget-options/assets/css/widget-options.css"
           }
         },
-        "WordPress Theme: bridge": {
+        "Bridge": {
           "proof": {
             "source": "link tag",
             "url": "https://lighthouseprc.org/wp-content/themes/bridge/style.css"
           }
         },
-        "WordPress Plugin: js_composer": {
+        "WPBakery Page Builder": {
           "proof": {
             "source": "link tag",
             "url": "https://lighthouseprc.org/wp-content/cache/background-css/1/lighthouseprc.org/wp-content/plugins/js_composer/assets/css/js_composer.min.css"
           }
         },
-        "WordPress Plugin: revslider": {
+        "Slider Revolution": {
           "proof": {
             "source": "link tag",
             "url": "https://lighthouseprc.org/wp-content/cache/background-css/1/lighthouseprc.org/wp-content/plugins/revslider/public/assets/css/rs6.css"
@@ -9985,6 +10139,7 @@
         "CloudFlare": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "cloudflare"
           }
         },
@@ -10032,12 +10187,14 @@
         "LiteSpeed": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "LiteSpeed"
           }
         },
         "PHP": {
           "proof": {
             "source": "response_headers",
+            "header": "X-Powered-By",
             "matched": "PHP/8.0.30"
           }
         },
@@ -10089,25 +10246,19 @@
             "matched": "slick.min"
           }
         },
-        "WordPress Plugin: bt_cost_calculator": {
+        "BT Cost Calculator": {
           "proof": {
             "source": "script tag",
             "url": "https://unitedveterinaryservice.com/wp-content/plugins/bt_cost_calculator/jquery.dd.js"
           }
         },
-        "WordPress Plugin: medicare": {
+        "Medicare": {
           "proof": {
             "source": "script tag",
             "url": "https://unitedveterinaryservice.com/wp-content/plugins/medicare/bt_elements.js"
           }
         },
-        "WordPress Theme: medicare": {
-          "proof": {
-            "source": "script tag",
-            "url": "https://unitedveterinaryservice.com/wp-content/themes/medicare/js/slick.min.js"
-          }
-        },
-        "WordPress Plugin: contact-form-7": {
+        "Contact Form 7": {
           "proof": {
             "source": "script tag",
             "url": "https://unitedveterinaryservice.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js"
@@ -10121,12 +10272,14 @@
         "Nginx": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "nginx"
           }
         },
         "Plesk": {
           "proof": {
             "source": "response_headers",
+            "header": "X-Powered-By",
             "matched": "PleskLin"
           }
         },
@@ -10156,6 +10309,7 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         },
@@ -10219,25 +10373,19 @@
             "matched": "flexslider.min.js"
           }
         },
-        "WordPress Plugin: woocommerce": {
-          "proof": {
-            "source": "script tag",
-            "url": "https://joburgheritage.org.za/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js"
-          }
-        },
-        "WordPress Plugin: elementor": {
+        "Elementor": {
           "proof": {
             "source": "script tag",
             "url": "https://joburgheritage.org.za/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js"
           }
         },
-        "WordPress Theme: astra": {
+        "Astra": {
           "proof": {
             "source": "script tag",
             "url": "https://joburgheritage.org.za/wp-content/themes/astra/assets/js/minified/frontend.min.js"
           }
         },
-        "WordPress Plugin: woolentor-addons": {
+        "ShopLentor": {
           "proof": {
             "source": "script tag",
             "url": "https://joburgheritage.org.za/wp-content/plugins/woolentor-addons/woolentor-blocks/assets/js/script.js"
@@ -10251,13 +10399,15 @@
         "LiteSpeed": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "LiteSpeed"
           }
         },
         "PHP": {
           "proof": {
             "source": "response_headers",
-            "matched": "PHPSESSID=6248a7da8d87043d12c70d2ce9aeae44; path=/; secure\nbreakdance_view_count=1; secure\nbreakdance_session_count=1; secure\nbreakdance_last_session_id=6248a7da8d87043d12c70d2ce9aeae44; secure"
+            "header": "Set-Cookie",
+            "matched": "PHPSESSID=[REDACTED]"
           }
         },
         "Google Font API": {
@@ -10320,7 +10470,7 @@
             "matched": "isotope.pkgd"
           }
         },
-        "WordPress Plugin: breakdance": {
+        "Breakdance": {
           "proof": {
             "source": "script tag",
             "url": "https://bfnelson.it/wp-content/plugins/breakdance/plugin/global-scripts/breakdance-utils.js"
@@ -10334,6 +10484,7 @@
         "Apache": {
           "proof": {
             "source": "response_headers",
+            "header": "Server",
             "matched": "Apache"
           }
         },
