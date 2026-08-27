@@ -8,6 +8,14 @@ def load_apps(filename="apps.json"):
     filename = os.path.join(os.getcwd(), os.path.dirname(__file__), filename)
     return json.load(open(filename))
 
+def load_wordpress_components(filename="wordpress_components.json"):
+
+    filename = os.path.join(os.path.dirname(__file__),filename)
+
+    with open(filename, "r", encoding="utf-8") as file:
+        return json.load(file)
+    
+wordpress_components = load_wordpress_components()
 
 def sanitize_url(url):
     parsed_url = urlsplit(url)
@@ -252,35 +260,43 @@ def get_techs(page_data: dict) -> dict :
         if not resource_link:
             continue
 
-        plugin_name = extract_wordpress_component(
-            resource_link,
-            "plugins"
-        )
+        plugin_name = extract_wordpress_component( resource_link,"plugins")
 
         if plugin_name:
-            technology_name = f"WordPress Plugin: {plugin_name}"
+            plugin_key = plugin_name.lower()
+
+            technology_name = wordpress_components[ "plugins"].get(plugin_key)
+
+            if not technology_name:
+                readable_name = (plugin_key.replace("-", " ").replace("_", " ").title())
+
+                technology_name = (f"WordPress Plugin: {readable_name}")
 
             if technology_name not in page_result["technologies"]:
                 page_result["technologies"][technology_name] = {
                     "proof": {
                         "source": resource_source,
-                        "url": resource_link
+                        "url": sanitize_url(resource_link)
                     }
                 }
 
-        theme_name = extract_wordpress_component(
-            resource_link,
-            "themes"
-        )
+        theme_name = extract_wordpress_component(resource_link ,"themes")
 
         if theme_name:
-            technology_name = f"WordPress Theme: {theme_name}"
+            theme_key = theme_name.lower()
+
+            technology_name = wordpress_components["themes"].get(theme_key)
+
+            if not technology_name:
+                readable_name = (theme_key.replace("-", " ").replace("_", " ").title())
+
+                technology_name = (f"WordPress Theme: {readable_name}")
 
             if technology_name not in page_result["technologies"]:
                 page_result["technologies"][technology_name] = {
                     "proof": {
                         "source": resource_source,
-                        "url": resource_link
+                        "url": sanitize_url(resource_link)
                     }
                 }
 
