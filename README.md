@@ -116,6 +116,7 @@ The result is written to `results.json`:
 
 ```powershell
 pip install -r requirements.txt
+playwright install chromium
 python main.py
 ```
 
@@ -189,7 +190,7 @@ meta: [
 ]
 }
 
-and every certain amount of time, we rechec this file, with the new rules, maybe every time  an new technology is discovered, 
+and every certain amount of time, we recheck this file, with the new rules, maybe every time a new technology is discovered, 
 run a check here, so that way we dont check with the entire file again.
 
 
