@@ -36,7 +36,7 @@ for script in soup.find_all("script", src=True):
     file.write(script["src"] + "\n")
 ```
 
-And then made a very vage verification of how many techs i could find here, by promPting the file to chat gpt
+And then made a very vague verification of how many techs i could find here, by prompting the file to chat gpt
 and i got around 200 techs, incluing plugins or themes from techs
 
 The first solution i thouhg was with a big file, with many technologies, and a  pattern for each
