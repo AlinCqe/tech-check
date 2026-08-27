@@ -1,33 +1,10 @@
-import os
 import re
-import json
-from urllib.parse import urlparse, urlsplit, urlunsplit
+from urllib.parse import urlparse
 
-def load_apps(filename="apps.json"):
+from helpers import load_apps, load_wordpress_components, sanitize_url
 
-    filename = os.path.join(os.getcwd(), os.path.dirname(__file__), filename)
-    return json.load(open(filename))
-
-def load_wordpress_components(filename="wordpress_components.json"):
-
-    filename = os.path.join(os.path.dirname(__file__),filename)
-
-    with open(filename, "r", encoding="utf-8") as file:
-        return json.load(file)
-    
 wordpress_components = load_wordpress_components()
-
-def sanitize_url(url):
-    parsed_url = urlsplit(url)
-
-    sanitized_url = urlunsplit(( 
-        parsed_url.scheme,
-        parsed_url.netloc,
-        parsed_url.path,
-        "",
-        ""
-    ))
-    return sanitized_url
+apps_data = load_apps()
 
 
 def extract_wordpress_component(resource_url, component_type):
@@ -48,8 +25,6 @@ def extract_wordpress_component(resource_url, component_type):
     return None
 
 
-data = load_apps()
-total_techs = {}
 
 def get_techs(page_data: dict) -> dict :  
    
@@ -62,13 +37,11 @@ def get_techs(page_data: dict) -> dict :
     response_headers = page_data.get("main_response_headers")
     raw_html = page_data.get("raw_html")
     rendered_html = page_data.get("rendered_html")
-    page_scripts = page_data["scripts"];
-    page_links = page_data["links"];
-    network_requets = page_data.get("network_requests", [])
+    network_requests = page_data.get("network_requests", [])
 
     # URL tech detection
     if url:
-        for app_name, app_spec in data["apps"].items():
+        for app_name, app_spec in apps_data["apps"].items():
                 if "url" in app_spec:
 
                     detection_pattern = app_spec["url"].split(r"\;", 1)[0]
@@ -97,7 +70,7 @@ def get_techs(page_data: dict) -> dict :
             for name, value in response_headers.items()
         }
 
-        for app_name, app_spec in data["apps"].items():
+        for app_name, app_spec in apps_data["apps"].items():
             if "headers" in app_spec:
                 for header_name, regex_rule in app_spec["headers"].items():
                     response_header_value = response_headers.get(header_name.lower())
@@ -136,7 +109,7 @@ def get_techs(page_data: dict) -> dict :
             continue
 
         for key in "html", "script":
-            for app_name, app_spec in data["apps"].items():
+            for app_name, app_spec in apps_data["apps"].items():
 
                 html_snippets = app_spec.get(key, [])
                 if not isinstance(html_snippets, list):
@@ -166,7 +139,7 @@ def get_techs(page_data: dict) -> dict :
         )
         metas = dict(meta_regex.findall(html))
         
-        for app_name, app_spec in data["apps"].items():
+        for app_name, app_spec in apps_data["apps"].items():
             for name, content in app_spec.get("meta", {}).items():
                 if name in metas:
                                     
@@ -189,7 +162,7 @@ def get_techs(page_data: dict) -> dict :
 
 
     # #requests tech detection 
-    for request in network_requets:
+    for request in network_requests:
         request_url = request.get("url")
         resource_type = request.get("resource_type")
 
@@ -198,7 +171,7 @@ def get_techs(page_data: dict) -> dict :
 
 
         if resource_type == "script":
-              for app_name, app_spec in data["apps"].items():
+              for app_name, app_spec in apps_data["apps"].items():
                     script_patterns = app_spec.get("script", [])
 
                     if not isinstance(script_patterns, list):

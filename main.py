@@ -1,24 +1,14 @@
-from extract import collect_page
-from get_techs import get_techs
 from playwright.sync_api import sync_playwright
-import csv
 from pathlib import Path
 import json
 
-def load_domains():
-    file_path = (Path(__file__).resolve().parent/"part-00000-66e0628d-2c7f-425a-8f5b-738bcd6bf198-c000.csv")
-
-    with file_path.open("r", encoding="utf-8-sig", newline="") as file:
-        rows = list(csv.DictReader(file))
-
-    return rows
+from extract import collect_page
+from helpers import load_domains
+from get_techs import get_techs
 
 
 domains = [domain["root_domain"] for domain in load_domains()]
-domains = ["verticalcommunitychurch.com",
-"gitesducharmois.fr",
-"allegrocreditbeta.com",
-"hoffmaninstitute.co.uk"]
+
 all_results = []
 
 with sync_playwright() as playwright:

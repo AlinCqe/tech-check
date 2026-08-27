@@ -8,7 +8,6 @@ def collect_page(browser, domain):
     else:
         requested_url = domain
 
-    # main data 
     page_data = {
         "input_domain": domain,
         "requested_url": requested_url,
